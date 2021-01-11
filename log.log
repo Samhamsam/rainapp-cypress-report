@@ -7,471 +7,484 @@
 [33m[nodemon] watching path(s): *.*[39m
 [33m[nodemon] watching extensions: js,mjs,json[39m
 [32m[nodemon] starting `node src/index.js`[39m
-2021.01.09, 12:39:26 INFO src/socketHandler.js line:28 trying to login or create account
-2021.01.09, 12:39:26 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
-2021.01.09, 12:39:26 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-06T12:39:26.482Z","httpOnly":true,"path":"/"}}
-2021.01.09, 12:39:26 INFO login/login.js line:209 user has not cookie set
-2021.01.09, 12:39:31 INFO src/socketHandler.js line:28 trying to login or create account
-2021.01.09, 12:39:31 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
-2021.01.09, 12:39:31 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-06T12:39:31.296Z","httpOnly":true,"path":"/"}}
-2021.01.09, 12:39:31 INFO login/login.js line:209 user has not cookie set
-2021.01.09, 12:39:32 INFO src/socketHandler.js line:28 trying to login or create account
-2021.01.09, 12:39:32 DEBUG login/login.js line:20 Getting new data: {"status":"create_account","lang":"en","cred":{"id":"2656d627-38f9-4f8e-a700-090e1f9e3164","username":"Test","password":"12345678","email":"test@gmail.com"}}
-2021.01.09, 12:39:32 DEBUG login/login.js line:181 User is: undefined
-2021.01.09, 12:39:32 DEBUG login/login.js line:230 eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB
-2021.01.09, 12:39:32 DEBUG src/database.js line:72 create User: {"username":"Test","password":"12345678","email":"test@gmail.com","id":"2656d627-38f9-4f8e-a700-090e1f9e3164"}
-2021.01.09, 12:39:32 DEBUG src/database.js line:95 creating views for user
-2021.01.09, 12:39:32 DEBUG login/login.js line:252 User is: {"_id":"users:2656d627-38f9-4f8e-a700-090e1f9e3164","_rev":"1-69d6b4f86539cd2ab16cee28c01ec628","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB","email":"test@gmail.com","id":"2656d627-38f9-4f8e-a700-090e1f9e3164"}
-2021.01.09, 12:39:32 DEBUG src/database.js line:31 getting all data with id: 2656d627-38f9-4f8e-a700-090e1f9e3164
-2021.01.09, 12:39:32 DEBUG src/database.js line:31 getting all data with id: 2656d627-38f9-4f8e-a700-090e1f9e3164
-2021.01.09, 12:39:32 DEBUG src/database.js line:36 {"total_rows":0,"offset":0,"rows":[]}
-2021.01.09, 12:39:32 DEBUG src/database.js line:36 {"total_rows":0,"offset":0,"rows":[]}
-2021.01.09, 12:39:32 DEBUG login/login.js line:279 data: [[],[]]
-2021.01.09, 12:39:32 DEBUG src/socketHandler.js line:94 User trys to change data
-2021.01.09, 12:39:32 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
-2021.01.09, 12:39:32 INFO src/socketHandler.js line:28 trying to login or create account
-2021.01.09, 12:39:32 DEBUG login/login.js line:20 Getting new data: {"status":"logout"}
-2021.01.09, 12:39:32 INFO login/login.js line:175 logget out cookie is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-06T12:39:31.296Z","httpOnly":true,"path":"/"}}
-2021.01.09, 12:39:33 INFO src/socketHandler.js line:28 trying to login or create account
-2021.01.09, 12:39:33 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
-2021.01.09, 12:39:33 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-06T12:39:33.143Z","httpOnly":true,"path":"/"}}
-2021.01.09, 12:39:33 INFO login/login.js line:209 user has not cookie set
-2021.01.09, 12:39:34 INFO src/socketHandler.js line:28 trying to login or create account
-2021.01.09, 12:39:34 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
-2021.01.09, 12:39:34 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-06T12:39:34.027Z","httpOnly":true,"path":"/"}}
-2021.01.09, 12:39:34 INFO login/login.js line:209 user has not cookie set
-2021.01.09, 12:39:34 INFO src/socketHandler.js line:28 trying to login or create account
-2021.01.09, 12:39:34 DEBUG login/login.js line:20 Getting new data: {"status":"login","cred":{"email":"test@gmail.com","password":"12345678"}}
-2021.01.09, 12:39:34 DEBUG login/login.js line:252 User is: {"_id":"users:2656d627-38f9-4f8e-a700-090e1f9e3164","_rev":"1-69d6b4f86539cd2ab16cee28c01ec628","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB","email":"test@gmail.com","id":"2656d627-38f9-4f8e-a700-090e1f9e3164"}
-2021.01.09, 12:39:34 DEBUG src/database.js line:31 getting all data with id: 2656d627-38f9-4f8e-a700-090e1f9e3164
-2021.01.09, 12:39:34 DEBUG src/database.js line:31 getting all data with id: 2656d627-38f9-4f8e-a700-090e1f9e3164
-2021.01.09, 12:39:34 DEBUG src/database.js line:36 {"total_rows":0,"offset":0,"rows":[]}
-2021.01.09, 12:39:34 DEBUG src/database.js line:36 {"total_rows":0,"offset":0,"rows":[]}
-2021.01.09, 12:39:34 DEBUG login/login.js line:279 data: [[],[]]
-2021.01.09, 12:39:34 DEBUG src/socketHandler.js line:42 Session {
+2021.01.11, 17:42:36 INFO src/database.js line:17 {
+  db_name: 'users',
+  purge_seq: '0-g1AAAABPeJzLYWBgYMpgTmHgzcvPy09JdcjLz8gvLskBCeexAEmGBiD1HwiyEhlwqEtkSKqHKMgCAIT2GV4',
+  update_seq: '0-g1AAAABPeJzLYWBgYMpgTmHgzcvPy09JdcjLz8gvLskBCeexAEmGBiD1HwiyEhlwqEtkSKqHKMgCAIT2GV4',
+  sizes: { file: 16692, external: 0, active: 0 },
+  props: { partitioned: true },
+  doc_del_count: 0,
+  doc_count: 0,
+  disk_format_version: 8,
+  compact_running: false,
+  cluster: { q: 2, n: 1, w: 1, r: 1 },
+  instance_start_time: '0'
+}
+2021.01.11, 17:43:23 INFO src/socketHandler.js line:28 trying to login or create account
+2021.01.11, 17:43:23 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
+2021.01.11, 17:43:23 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-08T17:43:23.601Z","httpOnly":true,"path":"/"}}
+2021.01.11, 17:43:23 INFO login/login.js line:209 user has not cookie set
+2021.01.11, 17:43:28 INFO src/socketHandler.js line:28 trying to login or create account
+2021.01.11, 17:43:28 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
+2021.01.11, 17:43:28 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-08T17:43:28.693Z","httpOnly":true,"path":"/"}}
+2021.01.11, 17:43:28 INFO login/login.js line:209 user has not cookie set
+2021.01.11, 17:43:29 INFO src/socketHandler.js line:28 trying to login or create account
+2021.01.11, 17:43:29 DEBUG login/login.js line:20 Getting new data: {"status":"create_account","lang":"en","cred":{"id":"69ea7d69-5485-4007-b810-5f359b47f664","username":"Test","password":"12345678","email":"test@gmail.com"}}
+2021.01.11, 17:43:29 DEBUG login/login.js line:181 User is: undefined
+2021.01.11, 17:43:29 DEBUG login/login.js line:230 eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX
+2021.01.11, 17:43:29 DEBUG src/database.js line:74 create User: {"username":"Test","password":"12345678","email":"test@gmail.com","id":"69ea7d69-5485-4007-b810-5f359b47f664"}
+2021.01.11, 17:43:30 DEBUG src/database.js line:97 creating views for user
+2021.01.11, 17:43:30 DEBUG login/login.js line:252 User is: {"_id":"users:69ea7d69-5485-4007-b810-5f359b47f664","_rev":"1-92f37f0916007615447425ce06603b96","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX","email":"test@gmail.com","id":"69ea7d69-5485-4007-b810-5f359b47f664"}
+2021.01.11, 17:43:30 DEBUG src/database.js line:33 getting all data with id: 69ea7d69-5485-4007-b810-5f359b47f664
+2021.01.11, 17:43:30 DEBUG src/database.js line:33 getting all data with id: 69ea7d69-5485-4007-b810-5f359b47f664
+2021.01.11, 17:43:30 DEBUG src/database.js line:38 {"total_rows":0,"offset":0,"rows":[]}
+2021.01.11, 17:43:30 DEBUG src/database.js line:38 {"total_rows":0,"offset":0,"rows":[]}
+2021.01.11, 17:43:30 DEBUG login/login.js line:279 data: [[],[]]
+2021.01.11, 17:43:30 DEBUG src/socketHandler.js line:94 User trys to change data
+2021.01.11, 17:43:30 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
+2021.01.11, 17:43:30 INFO src/socketHandler.js line:28 trying to login or create account
+2021.01.11, 17:43:30 DEBUG login/login.js line:20 Getting new data: {"status":"logout"}
+2021.01.11, 17:43:30 INFO login/login.js line:175 logget out cookie is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-08T17:43:28.693Z","httpOnly":true,"path":"/"}}
+2021.01.11, 17:43:31 INFO src/socketHandler.js line:28 trying to login or create account
+2021.01.11, 17:43:31 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
+2021.01.11, 17:43:31 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-08T17:43:30.933Z","httpOnly":true,"path":"/"}}
+2021.01.11, 17:43:31 INFO login/login.js line:209 user has not cookie set
+2021.01.11, 17:43:31 INFO src/socketHandler.js line:28 trying to login or create account
+2021.01.11, 17:43:31 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
+2021.01.11, 17:43:31 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-08T17:43:31.859Z","httpOnly":true,"path":"/"}}
+2021.01.11, 17:43:31 INFO login/login.js line:209 user has not cookie set
+2021.01.11, 17:43:32 INFO src/socketHandler.js line:28 trying to login or create account
+2021.01.11, 17:43:32 DEBUG login/login.js line:20 Getting new data: {"status":"login","cred":{"email":"test@gmail.com","password":"12345678"}}
+2021.01.11, 17:43:32 DEBUG login/login.js line:252 User is: {"_id":"users:69ea7d69-5485-4007-b810-5f359b47f664","_rev":"1-92f37f0916007615447425ce06603b96","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX","email":"test@gmail.com","id":"69ea7d69-5485-4007-b810-5f359b47f664"}
+2021.01.11, 17:43:32 DEBUG src/database.js line:33 getting all data with id: 69ea7d69-5485-4007-b810-5f359b47f664
+2021.01.11, 17:43:32 DEBUG src/database.js line:33 getting all data with id: 69ea7d69-5485-4007-b810-5f359b47f664
+2021.01.11, 17:43:32 DEBUG src/database.js line:38 {"total_rows":0,"offset":0,"rows":[]}
+2021.01.11, 17:43:32 DEBUG src/database.js line:38 {"total_rows":0,"offset":0,"rows":[]}
+2021.01.11, 17:43:32 DEBUG login/login.js line:279 data: [[],[]]
+2021.01.11, 17:43:32 DEBUG src/socketHandler.js line:42 Session {
   cookie: {
     path: '/',
-    _expires: 2023-10-06T12:39:34.027Z,
+    _expires: 2023-10-08T17:43:31.859Z,
     originalMaxAge: 86400000000,
     httpOnly: true
   },
-  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB'
+  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX'
 }
-2021.01.09, 12:39:34 DEBUG src/socketHandler.js line:46 live map receives date: Sat Jan 09 2021 00:00:00 GMT+0000 (Coordinated Universal Time)
-2021.01.09, 12:39:34 DEBUG src/database.js line:219 2021-01-09T00:00:00.000Z
-2021.01.09, 12:39:34 DEBUG src/socketHandler.js line:60 getting rain days []
-2021.01.09, 12:39:34 DEBUG src/database.js line:224 {"total_rows":0,"offset":0,"rows":[]}
-2021.01.09, 12:39:34 DEBUG src/database.js line:233 []
-2021.01.09, 12:39:34 DEBUG src/socketHandler.js line:48 Rain obj is: []
-2021.01.09, 12:39:37 DEBUG src/socketHandler.js line:94 User trys to change data
-2021.01.09, 12:39:37 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
-2021.01.09, 12:39:37 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:2656d627-38f9-4f8e-a700-090e1f9e3164","_rev":"1-69d6b4f86539cd2ab16cee28c01ec628","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB","email":"test@gmail.com","id":"2656d627-38f9-4f8e-a700-090e1f9e3164"}
-2021.01.09, 12:39:37 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"places","payload":{"id":"4b0a382c-6e94-4a61-8c24-4c54f58da936","place":"a","position":[-22.361268344311554,-60.02517700195313]}}] and want to insert
-2021.01.09, 12:39:37 DEBUG userdata/userdata.js line:15 {
-  _id: 'users:2656d627-38f9-4f8e-a700-090e1f9e3164',
-  _rev: '1-69d6b4f86539cd2ab16cee28c01ec628',
+2021.01.11, 17:43:32 DEBUG src/socketHandler.js line:46 live map receives date: Mon Jan 11 2021 00:00:00 GMT+0000 (Coordinated Universal Time)
+2021.01.11, 17:43:32 DEBUG src/socketHandler.js line:60 getting rain days []
+2021.01.11, 17:43:32 DEBUG src/database.js line:221 2021-01-11T00:00:00.000Z
+2021.01.11, 17:43:32 DEBUG src/database.js line:226 {"total_rows":0,"offset":0,"rows":[]}
+2021.01.11, 17:43:32 DEBUG src/database.js line:235 []
+2021.01.11, 17:43:32 DEBUG src/socketHandler.js line:48 Rain obj is: []
+2021.01.11, 17:43:35 DEBUG src/socketHandler.js line:94 User trys to change data
+2021.01.11, 17:43:35 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
+2021.01.11, 17:43:35 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:69ea7d69-5485-4007-b810-5f359b47f664","_rev":"1-92f37f0916007615447425ce06603b96","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX","email":"test@gmail.com","id":"69ea7d69-5485-4007-b810-5f359b47f664"}
+2021.01.11, 17:43:35 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"places","payload":{"id":"d632e1bd-8999-4943-a02e-f0f6e9a5caf5","place":"a","position":[-22.361268344311554,-60.02517700195313]}}] and want to insert
+2021.01.11, 17:43:35 DEBUG userdata/userdata.js line:15 {
+  _id: 'users:69ea7d69-5485-4007-b810-5f359b47f664',
+  _rev: '1-92f37f0916007615447425ce06603b96',
   username: 'Test',
-  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB',
+  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX',
   email: 'test@gmail.com',
-  id: '2656d627-38f9-4f8e-a700-090e1f9e3164'
+  id: '69ea7d69-5485-4007-b810-5f359b47f664'
 }
-2021.01.09, 12:39:37 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"places","payload":{"id":"4b0a382c-6e94-4a61-8c24-4c54f58da936","place":"a","position":[-22.361268344311554,-60.02517700195313]}} for Test
-2021.01.09, 12:39:37 DEBUG src/database.js line:145 partitionName: places, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"4b0a382c-6e94-4a61-8c24-4c54f58da936","place":"a","position":[-22.361268344311554,-60.02517700195313]}
-2021.01.09, 12:39:37 DEBUG src/database.js line:151 {
-  id: '4b0a382c-6e94-4a61-8c24-4c54f58da936',
+2021.01.11, 17:43:35 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"places","payload":{"id":"d632e1bd-8999-4943-a02e-f0f6e9a5caf5","place":"a","position":[-22.361268344311554,-60.02517700195313]}} for Test
+2021.01.11, 17:43:35 DEBUG src/database.js line:147 partitionName: places, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"d632e1bd-8999-4943-a02e-f0f6e9a5caf5","place":"a","position":[-22.361268344311554,-60.02517700195313]}
+2021.01.11, 17:43:35 DEBUG src/database.js line:153 {
+  id: 'd632e1bd-8999-4943-a02e-f0f6e9a5caf5',
   place: 'a',
   position: [ -22.361268344311554, -60.02517700195313 ],
-  _id: 'places:4b0a382c-6e94-4a61-8c24-4c54f58da936'
+  _id: 'places:d632e1bd-8999-4943-a02e-f0f6e9a5caf5'
 }
-2021.01.09, 12:39:37 DEBUG src/database.js line:156 {
+2021.01.11, 17:43:35 DEBUG src/database.js line:158 {
   docs: [],
   bookmark: 'nil',
   warning: 'No matching index found, create an index to optimize query time.'
 }
-2021.01.09, 12:39:37 DEBUG src/database.js line:145 partitionName: activitys, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"4b0a382c-6e94-4a61-8c24-4c54f58da936","type":"add","partitionName":"places","datetime":"2021-01-09T12:39:37.492Z","uuid":"5fb575d1-d4d0-42fd-bd03-4221624def6a"}
-2021.01.09, 12:39:37 DEBUG src/database.js line:151 {
-  id: '4b0a382c-6e94-4a61-8c24-4c54f58da936',
+2021.01.11, 17:43:35 DEBUG src/database.js line:147 partitionName: activitys, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"d632e1bd-8999-4943-a02e-f0f6e9a5caf5","type":"add","partitionName":"places","datetime":"2021-01-11T17:43:35.418Z","uuid":"d5db9fa8-d2ca-418c-b548-5b5742cc7acb"}
+2021.01.11, 17:43:35 DEBUG src/database.js line:153 {
+  id: 'd632e1bd-8999-4943-a02e-f0f6e9a5caf5',
   type: 'add',
   partitionName: 'places',
-  datetime: 2021-01-09T12:39:37.492Z,
-  uuid: '5fb575d1-d4d0-42fd-bd03-4221624def6a',
-  _id: 'activitys:5fb575d1-d4d0-42fd-bd03-4221624def6a'
+  datetime: 2021-01-11T17:43:35.418Z,
+  uuid: 'd5db9fa8-d2ca-418c-b548-5b5742cc7acb',
+  _id: 'activitys:d5db9fa8-d2ca-418c-b548-5b5742cc7acb'
 }
-2021.01.09, 12:39:37 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"places","payload":{"id":"4b0a382c-6e94-4a61-8c24-4c54f58da936","place":"a","position":[-22.361268344311554,-60.02517700195313],"_id":"places:4b0a382c-6e94-4a61-8c24-4c54f58da936"}}] to room: Test
-2021.01.09, 12:39:37 DEBUG userdata/userdata.js line:63 clients in room are: ["8uvIFWkXaHKDceC3AAAD"]
-2021.01.09, 12:39:37 DEBUG src/socketHandler.js line:94 User trys to change data
-2021.01.09, 12:39:37 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
-2021.01.09, 12:39:37 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:2656d627-38f9-4f8e-a700-090e1f9e3164","_rev":"1-69d6b4f86539cd2ab16cee28c01ec628","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB","email":"test@gmail.com","id":"2656d627-38f9-4f8e-a700-090e1f9e3164"}
-2021.01.09, 12:39:37 INFO src/socketHandler.js line:36 Getting data: [{"type":"remove","partitionName":"places","payload":{"id":"4b0a382c-6e94-4a61-8c24-4c54f58da936"}}] and want to insert
-2021.01.09, 12:39:37 DEBUG userdata/userdata.js line:15 {
-  _id: 'users:2656d627-38f9-4f8e-a700-090e1f9e3164',
-  _rev: '1-69d6b4f86539cd2ab16cee28c01ec628',
+2021.01.11, 17:43:35 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"places","payload":{"id":"d632e1bd-8999-4943-a02e-f0f6e9a5caf5","place":"a","position":[-22.361268344311554,-60.02517700195313],"_id":"places:d632e1bd-8999-4943-a02e-f0f6e9a5caf5"}}] to room: Test
+2021.01.11, 17:43:35 DEBUG userdata/userdata.js line:63 clients in room are: ["UTuLGclAzbfZgiq7AAAD"]
+2021.01.11, 17:43:35 DEBUG src/socketHandler.js line:94 User trys to change data
+2021.01.11, 17:43:35 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
+2021.01.11, 17:43:35 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:69ea7d69-5485-4007-b810-5f359b47f664","_rev":"1-92f37f0916007615447425ce06603b96","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX","email":"test@gmail.com","id":"69ea7d69-5485-4007-b810-5f359b47f664"}
+2021.01.11, 17:43:35 INFO src/socketHandler.js line:36 Getting data: [{"type":"remove","partitionName":"places","payload":{"id":"d632e1bd-8999-4943-a02e-f0f6e9a5caf5"}}] and want to insert
+2021.01.11, 17:43:35 DEBUG userdata/userdata.js line:15 {
+  _id: 'users:69ea7d69-5485-4007-b810-5f359b47f664',
+  _rev: '1-92f37f0916007615447425ce06603b96',
   username: 'Test',
-  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB',
+  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX',
   email: 'test@gmail.com',
-  id: '2656d627-38f9-4f8e-a700-090e1f9e3164'
+  id: '69ea7d69-5485-4007-b810-5f359b47f664'
 }
-2021.01.09, 12:39:37 INFO userdata/userdata.js line:43 removing {"type":"remove","partitionName":"places","payload":{"id":"4b0a382c-6e94-4a61-8c24-4c54f58da936"}} for Test
-2021.01.09, 12:39:37 DEBUG src/database.js line:172 This document removed: {"ok":true,"id":"places:4b0a382c-6e94-4a61-8c24-4c54f58da936","rev":"2-2bb571c6a6558aa48b2227500e6d9e54"}
-2021.01.09, 12:39:37 DEBUG src/database.js line:145 partitionName: activitys, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"4b0a382c-6e94-4a61-8c24-4c54f58da936","type":"remove","partitionName":"places","datetime":"2021-01-09T12:39:37.776Z","uuid":"d5fd3c3e-519c-4047-a148-99adad433029"}
-2021.01.09, 12:39:37 DEBUG src/database.js line:151 {
-  id: '4b0a382c-6e94-4a61-8c24-4c54f58da936',
+2021.01.11, 17:43:35 INFO userdata/userdata.js line:43 removing {"type":"remove","partitionName":"places","payload":{"id":"d632e1bd-8999-4943-a02e-f0f6e9a5caf5"}} for Test
+2021.01.11, 17:43:35 DEBUG src/database.js line:174 This document removed: {"ok":true,"id":"places:d632e1bd-8999-4943-a02e-f0f6e9a5caf5","rev":"2-3f7d38f7d9be3ca92fd408e4311dbf69"}
+2021.01.11, 17:43:35 DEBUG src/database.js line:147 partitionName: activitys, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"d632e1bd-8999-4943-a02e-f0f6e9a5caf5","type":"remove","partitionName":"places","datetime":"2021-01-11T17:43:35.713Z","uuid":"d553395b-9ecf-46be-a43f-d0d315196af7"}
+2021.01.11, 17:43:35 DEBUG src/database.js line:153 {
+  id: 'd632e1bd-8999-4943-a02e-f0f6e9a5caf5',
   type: 'remove',
   partitionName: 'places',
-  datetime: 2021-01-09T12:39:37.776Z,
-  uuid: 'd5fd3c3e-519c-4047-a148-99adad433029',
-  _id: 'activitys:d5fd3c3e-519c-4047-a148-99adad433029'
+  datetime: 2021-01-11T17:43:35.713Z,
+  uuid: 'd553395b-9ecf-46be-a43f-d0d315196af7',
+  _id: 'activitys:d553395b-9ecf-46be-a43f-d0d315196af7'
 }
-2021.01.09, 12:39:37 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"remove","partitionName":"places","payload":{"id":"4b0a382c-6e94-4a61-8c24-4c54f58da936"}}] to room: Test
-2021.01.09, 12:39:37 DEBUG userdata/userdata.js line:63 clients in room are: ["8uvIFWkXaHKDceC3AAAD"]
-2021.01.09, 12:39:38 DEBUG src/socketHandler.js line:94 User trys to change data
-2021.01.09, 12:39:38 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
-2021.01.09, 12:39:38 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:2656d627-38f9-4f8e-a700-090e1f9e3164","_rev":"1-69d6b4f86539cd2ab16cee28c01ec628","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB","email":"test@gmail.com","id":"2656d627-38f9-4f8e-a700-090e1f9e3164"}
-2021.01.09, 12:39:38 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"places","payload":{"id":"de8b04e4-06c4-4d78-968e-9fbd4a24ffe0","place":"Fila","position":[-22.361268344311554,-60.02517700195313]}}] and want to insert
-2021.01.09, 12:39:38 DEBUG userdata/userdata.js line:15 {
-  _id: 'users:2656d627-38f9-4f8e-a700-090e1f9e3164',
-  _rev: '1-69d6b4f86539cd2ab16cee28c01ec628',
+2021.01.11, 17:43:35 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"remove","partitionName":"places","payload":{"id":"d632e1bd-8999-4943-a02e-f0f6e9a5caf5"}}] to room: Test
+2021.01.11, 17:43:35 DEBUG userdata/userdata.js line:63 clients in room are: ["UTuLGclAzbfZgiq7AAAD"]
+2021.01.11, 17:43:36 DEBUG src/socketHandler.js line:94 User trys to change data
+2021.01.11, 17:43:36 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
+2021.01.11, 17:43:36 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:69ea7d69-5485-4007-b810-5f359b47f664","_rev":"1-92f37f0916007615447425ce06603b96","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX","email":"test@gmail.com","id":"69ea7d69-5485-4007-b810-5f359b47f664"}
+2021.01.11, 17:43:36 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"places","payload":{"id":"62d1b35b-6354-40a6-991e-53da1eb3c036","place":"Fila","position":[-22.361268344311554,-60.02517700195313]}}] and want to insert
+2021.01.11, 17:43:36 DEBUG userdata/userdata.js line:15 {
+  _id: 'users:69ea7d69-5485-4007-b810-5f359b47f664',
+  _rev: '1-92f37f0916007615447425ce06603b96',
   username: 'Test',
-  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB',
+  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX',
   email: 'test@gmail.com',
-  id: '2656d627-38f9-4f8e-a700-090e1f9e3164'
+  id: '69ea7d69-5485-4007-b810-5f359b47f664'
 }
-2021.01.09, 12:39:38 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"places","payload":{"id":"de8b04e4-06c4-4d78-968e-9fbd4a24ffe0","place":"Fila","position":[-22.361268344311554,-60.02517700195313]}} for Test
-2021.01.09, 12:39:38 DEBUG src/database.js line:145 partitionName: places, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"de8b04e4-06c4-4d78-968e-9fbd4a24ffe0","place":"Fila","position":[-22.361268344311554,-60.02517700195313]}
-2021.01.09, 12:39:38 DEBUG src/database.js line:151 {
-  id: 'de8b04e4-06c4-4d78-968e-9fbd4a24ffe0',
+2021.01.11, 17:43:36 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"places","payload":{"id":"62d1b35b-6354-40a6-991e-53da1eb3c036","place":"Fila","position":[-22.361268344311554,-60.02517700195313]}} for Test
+2021.01.11, 17:43:36 DEBUG src/database.js line:147 partitionName: places, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"62d1b35b-6354-40a6-991e-53da1eb3c036","place":"Fila","position":[-22.361268344311554,-60.02517700195313]}
+2021.01.11, 17:43:36 DEBUG src/database.js line:153 {
+  id: '62d1b35b-6354-40a6-991e-53da1eb3c036',
   place: 'Fila',
   position: [ -22.361268344311554, -60.02517700195313 ],
-  _id: 'places:de8b04e4-06c4-4d78-968e-9fbd4a24ffe0'
+  _id: 'places:62d1b35b-6354-40a6-991e-53da1eb3c036'
 }
-2021.01.09, 12:39:38 DEBUG src/database.js line:156 {
+2021.01.11, 17:43:36 DEBUG src/database.js line:158 {
   docs: [],
   bookmark: 'nil',
   warning: 'No matching index found, create an index to optimize query time.'
 }
-2021.01.09, 12:39:38 DEBUG src/database.js line:145 partitionName: activitys, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"de8b04e4-06c4-4d78-968e-9fbd4a24ffe0","type":"add","partitionName":"places","datetime":"2021-01-09T12:39:38.138Z","uuid":"6d1e1ae9-66d8-4da8-ada2-054f46414cb5"}
-2021.01.09, 12:39:38 DEBUG src/database.js line:151 {
-  id: 'de8b04e4-06c4-4d78-968e-9fbd4a24ffe0',
+2021.01.11, 17:43:36 DEBUG src/database.js line:147 partitionName: activitys, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"62d1b35b-6354-40a6-991e-53da1eb3c036","type":"add","partitionName":"places","datetime":"2021-01-11T17:43:36.086Z","uuid":"f8a242c5-a242-4a67-a732-f70dd79caa55"}
+2021.01.11, 17:43:36 DEBUG src/database.js line:153 {
+  id: '62d1b35b-6354-40a6-991e-53da1eb3c036',
   type: 'add',
   partitionName: 'places',
-  datetime: 2021-01-09T12:39:38.138Z,
-  uuid: '6d1e1ae9-66d8-4da8-ada2-054f46414cb5',
-  _id: 'activitys:6d1e1ae9-66d8-4da8-ada2-054f46414cb5'
+  datetime: 2021-01-11T17:43:36.086Z,
+  uuid: 'f8a242c5-a242-4a67-a732-f70dd79caa55',
+  _id: 'activitys:f8a242c5-a242-4a67-a732-f70dd79caa55'
 }
-2021.01.09, 12:39:38 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"places","payload":{"id":"de8b04e4-06c4-4d78-968e-9fbd4a24ffe0","place":"Fila","position":[-22.361268344311554,-60.02517700195313],"_id":"places:de8b04e4-06c4-4d78-968e-9fbd4a24ffe0"}}] to room: Test
-2021.01.09, 12:39:38 DEBUG userdata/userdata.js line:63 clients in room are: ["8uvIFWkXaHKDceC3AAAD"]
-2021.01.09, 12:39:38 DEBUG src/socketHandler.js line:94 User trys to change data
-2021.01.09, 12:39:38 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
-2021.01.09, 12:39:38 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:2656d627-38f9-4f8e-a700-090e1f9e3164","_rev":"1-69d6b4f86539cd2ab16cee28c01ec628","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB","email":"test@gmail.com","id":"2656d627-38f9-4f8e-a700-090e1f9e3164"}
-2021.01.09, 12:39:38 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"places","payload":{"id":"de8b04e4-06c4-4d78-968e-9fbd4a24ffe0","place":"Fila2","position":[-22.361268344311554,-60.02517700195313]}}] and want to insert
-2021.01.09, 12:39:38 DEBUG userdata/userdata.js line:15 {
-  _id: 'users:2656d627-38f9-4f8e-a700-090e1f9e3164',
-  _rev: '1-69d6b4f86539cd2ab16cee28c01ec628',
+2021.01.11, 17:43:36 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"places","payload":{"id":"62d1b35b-6354-40a6-991e-53da1eb3c036","place":"Fila","position":[-22.361268344311554,-60.02517700195313],"_id":"places:62d1b35b-6354-40a6-991e-53da1eb3c036"}}] to room: Test
+2021.01.11, 17:43:36 DEBUG userdata/userdata.js line:63 clients in room are: ["UTuLGclAzbfZgiq7AAAD"]
+2021.01.11, 17:43:36 DEBUG src/socketHandler.js line:94 User trys to change data
+2021.01.11, 17:43:36 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
+2021.01.11, 17:43:36 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:69ea7d69-5485-4007-b810-5f359b47f664","_rev":"1-92f37f0916007615447425ce06603b96","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX","email":"test@gmail.com","id":"69ea7d69-5485-4007-b810-5f359b47f664"}
+2021.01.11, 17:43:36 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"places","payload":{"id":"62d1b35b-6354-40a6-991e-53da1eb3c036","place":"Fila2","position":[-22.361268344311554,-60.02517700195313]}}] and want to insert
+2021.01.11, 17:43:36 DEBUG userdata/userdata.js line:15 {
+  _id: 'users:69ea7d69-5485-4007-b810-5f359b47f664',
+  _rev: '1-92f37f0916007615447425ce06603b96',
   username: 'Test',
-  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB',
+  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX',
   email: 'test@gmail.com',
-  id: '2656d627-38f9-4f8e-a700-090e1f9e3164'
+  id: '69ea7d69-5485-4007-b810-5f359b47f664'
 }
-2021.01.09, 12:39:38 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"places","payload":{"id":"de8b04e4-06c4-4d78-968e-9fbd4a24ffe0","place":"Fila2","position":[-22.361268344311554,-60.02517700195313]}} for Test
-2021.01.09, 12:39:38 DEBUG src/database.js line:145 partitionName: places, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"de8b04e4-06c4-4d78-968e-9fbd4a24ffe0","place":"Fila2","position":[-22.361268344311554,-60.02517700195313]}
-2021.01.09, 12:39:38 DEBUG src/database.js line:151 {
-  id: 'de8b04e4-06c4-4d78-968e-9fbd4a24ffe0',
+2021.01.11, 17:43:36 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"places","payload":{"id":"62d1b35b-6354-40a6-991e-53da1eb3c036","place":"Fila2","position":[-22.361268344311554,-60.02517700195313]}} for Test
+2021.01.11, 17:43:36 DEBUG src/database.js line:147 partitionName: places, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"62d1b35b-6354-40a6-991e-53da1eb3c036","place":"Fila2","position":[-22.361268344311554,-60.02517700195313]}
+2021.01.11, 17:43:36 DEBUG src/database.js line:153 {
+  id: '62d1b35b-6354-40a6-991e-53da1eb3c036',
   place: 'Fila2',
   position: [ -22.361268344311554, -60.02517700195313 ],
-  _id: 'places:de8b04e4-06c4-4d78-968e-9fbd4a24ffe0'
+  _id: 'places:62d1b35b-6354-40a6-991e-53da1eb3c036'
 }
-2021.01.09, 12:39:38 DEBUG src/database.js line:156 {
+2021.01.11, 17:43:36 DEBUG src/database.js line:158 {
   docs: [
     {
-      _id: 'places:de8b04e4-06c4-4d78-968e-9fbd4a24ffe0',
-      _rev: '1-ff927ceba5f1068d04913696ef94e642',
-      id: 'de8b04e4-06c4-4d78-968e-9fbd4a24ffe0',
+      _id: 'places:62d1b35b-6354-40a6-991e-53da1eb3c036',
+      _rev: '1-457c9f6cb894a69fab575838a2205f08',
+      id: '62d1b35b-6354-40a6-991e-53da1eb3c036',
       place: 'Fila',
       position: [Array]
     }
   ],
-  bookmark: 'g1AAAACGeJzLYWBgYMpgSmHgKy5JLCrJTq2MT8lPzkzJBYprF-QkJqcWW6WkWiQZmKSa6BqYJZvomqSYW-hamlmk6lqmJaWYJBqZpKWlGoCM4IAZQarmLAD6aCY5',
+  bookmark: 'g1AAAACGeJzLYWBgYMpgSmHgKy5JLCrJTq2MT8lPzkzJBYprF-QkJqcWW5kZpRgmGZsm6ZoZm5romhgkmulaWhqm6poapyQapiYZJxsYm4GM4IAZQarmLACjbSR7',
   warning: 'No matching index found, create an index to optimize query time.'
 }
-2021.01.09, 12:39:38 DEBUG src/database.js line:145 partitionName: activitys, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"de8b04e4-06c4-4d78-968e-9fbd4a24ffe0","type":"add","partitionName":"places","datetime":"2021-01-09T12:39:38.468Z","uuid":"0b8e6a89-be8d-4962-a99d-63b81bc16d66"}
-2021.01.09, 12:39:38 DEBUG src/database.js line:151 {
-  id: 'de8b04e4-06c4-4d78-968e-9fbd4a24ffe0',
+2021.01.11, 17:43:36 DEBUG src/database.js line:147 partitionName: activitys, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"62d1b35b-6354-40a6-991e-53da1eb3c036","type":"add","partitionName":"places","datetime":"2021-01-11T17:43:36.423Z","uuid":"86bb68ef-1059-4d64-bca6-e56a1292c197"}
+2021.01.11, 17:43:36 DEBUG src/database.js line:153 {
+  id: '62d1b35b-6354-40a6-991e-53da1eb3c036',
   type: 'add',
   partitionName: 'places',
-  datetime: 2021-01-09T12:39:38.468Z,
-  uuid: '0b8e6a89-be8d-4962-a99d-63b81bc16d66',
-  _id: 'activitys:0b8e6a89-be8d-4962-a99d-63b81bc16d66'
+  datetime: 2021-01-11T17:43:36.423Z,
+  uuid: '86bb68ef-1059-4d64-bca6-e56a1292c197',
+  _id: 'activitys:86bb68ef-1059-4d64-bca6-e56a1292c197'
 }
-2021.01.09, 12:39:38 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"places","payload":{"id":"de8b04e4-06c4-4d78-968e-9fbd4a24ffe0","place":"Fila2","position":[-22.361268344311554,-60.02517700195313],"_id":"places:de8b04e4-06c4-4d78-968e-9fbd4a24ffe0","_rev":"1-ff927ceba5f1068d04913696ef94e642"}}] to room: Test
-2021.01.09, 12:39:38 DEBUG userdata/userdata.js line:63 clients in room are: ["8uvIFWkXaHKDceC3AAAD"]
-2021.01.09, 12:39:38 DEBUG src/socketHandler.js line:94 User trys to change data
-2021.01.09, 12:39:38 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
-2021.01.09, 12:39:38 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:2656d627-38f9-4f8e-a700-090e1f9e3164","_rev":"1-69d6b4f86539cd2ab16cee28c01ec628","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB","email":"test@gmail.com","id":"2656d627-38f9-4f8e-a700-090e1f9e3164"}
-2021.01.09, 12:39:38 INFO src/socketHandler.js line:36 Getting data: [{"type":"remove","partitionName":"places","payload":{"id":"de8b04e4-06c4-4d78-968e-9fbd4a24ffe0"}}] and want to insert
-2021.01.09, 12:39:38 DEBUG userdata/userdata.js line:15 {
-  _id: 'users:2656d627-38f9-4f8e-a700-090e1f9e3164',
-  _rev: '1-69d6b4f86539cd2ab16cee28c01ec628',
+2021.01.11, 17:43:36 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"places","payload":{"id":"62d1b35b-6354-40a6-991e-53da1eb3c036","place":"Fila2","position":[-22.361268344311554,-60.02517700195313],"_id":"places:62d1b35b-6354-40a6-991e-53da1eb3c036","_rev":"1-457c9f6cb894a69fab575838a2205f08"}}] to room: Test
+2021.01.11, 17:43:36 DEBUG userdata/userdata.js line:63 clients in room are: ["UTuLGclAzbfZgiq7AAAD"]
+2021.01.11, 17:43:36 DEBUG src/socketHandler.js line:94 User trys to change data
+2021.01.11, 17:43:36 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
+2021.01.11, 17:43:36 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:69ea7d69-5485-4007-b810-5f359b47f664","_rev":"1-92f37f0916007615447425ce06603b96","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX","email":"test@gmail.com","id":"69ea7d69-5485-4007-b810-5f359b47f664"}
+2021.01.11, 17:43:36 INFO src/socketHandler.js line:36 Getting data: [{"type":"remove","partitionName":"places","payload":{"id":"62d1b35b-6354-40a6-991e-53da1eb3c036"}}] and want to insert
+2021.01.11, 17:43:36 DEBUG userdata/userdata.js line:15 {
+  _id: 'users:69ea7d69-5485-4007-b810-5f359b47f664',
+  _rev: '1-92f37f0916007615447425ce06603b96',
   username: 'Test',
-  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB',
+  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX',
   email: 'test@gmail.com',
-  id: '2656d627-38f9-4f8e-a700-090e1f9e3164'
+  id: '69ea7d69-5485-4007-b810-5f359b47f664'
 }
-2021.01.09, 12:39:38 INFO userdata/userdata.js line:43 removing {"type":"remove","partitionName":"places","payload":{"id":"de8b04e4-06c4-4d78-968e-9fbd4a24ffe0"}} for Test
-2021.01.09, 12:39:38 DEBUG src/database.js line:172 This document removed: {"ok":true,"id":"places:de8b04e4-06c4-4d78-968e-9fbd4a24ffe0","rev":"3-7b62765dbe208b3ba4e97f3058c8dfa9"}
-2021.01.09, 12:39:38 DEBUG src/database.js line:145 partitionName: activitys, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"de8b04e4-06c4-4d78-968e-9fbd4a24ffe0","type":"remove","partitionName":"places","datetime":"2021-01-09T12:39:38.664Z","uuid":"dcca1e20-c53e-4c2c-928e-f530cff52311"}
-2021.01.09, 12:39:38 DEBUG src/database.js line:151 {
-  id: 'de8b04e4-06c4-4d78-968e-9fbd4a24ffe0',
+2021.01.11, 17:43:36 INFO userdata/userdata.js line:43 removing {"type":"remove","partitionName":"places","payload":{"id":"62d1b35b-6354-40a6-991e-53da1eb3c036"}} for Test
+2021.01.11, 17:43:36 DEBUG src/database.js line:174 This document removed: {"ok":true,"id":"places:62d1b35b-6354-40a6-991e-53da1eb3c036","rev":"3-b41180e9e1057fce299ffe5c8dcb48b3"}
+2021.01.11, 17:43:36 DEBUG src/database.js line:147 partitionName: activitys, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"62d1b35b-6354-40a6-991e-53da1eb3c036","type":"remove","partitionName":"places","datetime":"2021-01-11T17:43:36.656Z","uuid":"622c15a0-0233-4313-836a-d1b50181ba17"}
+2021.01.11, 17:43:36 DEBUG src/database.js line:153 {
+  id: '62d1b35b-6354-40a6-991e-53da1eb3c036',
   type: 'remove',
   partitionName: 'places',
-  datetime: 2021-01-09T12:39:38.664Z,
-  uuid: 'dcca1e20-c53e-4c2c-928e-f530cff52311',
-  _id: 'activitys:dcca1e20-c53e-4c2c-928e-f530cff52311'
+  datetime: 2021-01-11T17:43:36.656Z,
+  uuid: '622c15a0-0233-4313-836a-d1b50181ba17',
+  _id: 'activitys:622c15a0-0233-4313-836a-d1b50181ba17'
 }
-2021.01.09, 12:39:38 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"remove","partitionName":"places","payload":{"id":"de8b04e4-06c4-4d78-968e-9fbd4a24ffe0"}}] to room: Test
-2021.01.09, 12:39:38 DEBUG userdata/userdata.js line:63 clients in room are: ["8uvIFWkXaHKDceC3AAAD"]
-2021.01.09, 12:39:40 DEBUG src/socketHandler.js line:94 User trys to change data
-2021.01.09, 12:39:40 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
-2021.01.09, 12:39:40 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:2656d627-38f9-4f8e-a700-090e1f9e3164","_rev":"1-69d6b4f86539cd2ab16cee28c01ec628","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB","email":"test@gmail.com","id":"2656d627-38f9-4f8e-a700-090e1f9e3164"}
-2021.01.09, 12:39:40 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"places","payload":{"id":"8edee2d4-3848-4a07-a55b-8f57415b3b2a","place":"Fila","position":[-22.361268344311554,-60.02517700195313]}}] and want to insert
-2021.01.09, 12:39:40 DEBUG userdata/userdata.js line:15 {
-  _id: 'users:2656d627-38f9-4f8e-a700-090e1f9e3164',
-  _rev: '1-69d6b4f86539cd2ab16cee28c01ec628',
+2021.01.11, 17:43:36 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"remove","partitionName":"places","payload":{"id":"62d1b35b-6354-40a6-991e-53da1eb3c036"}}] to room: Test
+2021.01.11, 17:43:36 DEBUG userdata/userdata.js line:63 clients in room are: ["UTuLGclAzbfZgiq7AAAD"]
+2021.01.11, 17:43:38 DEBUG src/socketHandler.js line:94 User trys to change data
+2021.01.11, 17:43:38 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
+2021.01.11, 17:43:38 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:69ea7d69-5485-4007-b810-5f359b47f664","_rev":"1-92f37f0916007615447425ce06603b96","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX","email":"test@gmail.com","id":"69ea7d69-5485-4007-b810-5f359b47f664"}
+2021.01.11, 17:43:38 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"places","payload":{"id":"cb55a77c-2b95-4cef-ba60-8af47e47b720","place":"Fila","position":[-22.361268344311554,-60.02517700195313]}}] and want to insert
+2021.01.11, 17:43:38 DEBUG userdata/userdata.js line:15 {
+  _id: 'users:69ea7d69-5485-4007-b810-5f359b47f664',
+  _rev: '1-92f37f0916007615447425ce06603b96',
   username: 'Test',
-  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB',
+  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX',
   email: 'test@gmail.com',
-  id: '2656d627-38f9-4f8e-a700-090e1f9e3164'
+  id: '69ea7d69-5485-4007-b810-5f359b47f664'
 }
-2021.01.09, 12:39:40 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"places","payload":{"id":"8edee2d4-3848-4a07-a55b-8f57415b3b2a","place":"Fila","position":[-22.361268344311554,-60.02517700195313]}} for Test
-2021.01.09, 12:39:40 DEBUG src/database.js line:145 partitionName: places, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"8edee2d4-3848-4a07-a55b-8f57415b3b2a","place":"Fila","position":[-22.361268344311554,-60.02517700195313]}
-2021.01.09, 12:39:40 DEBUG src/database.js line:151 {
-  id: '8edee2d4-3848-4a07-a55b-8f57415b3b2a',
+2021.01.11, 17:43:38 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"places","payload":{"id":"cb55a77c-2b95-4cef-ba60-8af47e47b720","place":"Fila","position":[-22.361268344311554,-60.02517700195313]}} for Test
+2021.01.11, 17:43:38 DEBUG src/database.js line:147 partitionName: places, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"cb55a77c-2b95-4cef-ba60-8af47e47b720","place":"Fila","position":[-22.361268344311554,-60.02517700195313]}
+2021.01.11, 17:43:38 DEBUG src/database.js line:153 {
+  id: 'cb55a77c-2b95-4cef-ba60-8af47e47b720',
   place: 'Fila',
   position: [ -22.361268344311554, -60.02517700195313 ],
-  _id: 'places:8edee2d4-3848-4a07-a55b-8f57415b3b2a'
+  _id: 'places:cb55a77c-2b95-4cef-ba60-8af47e47b720'
 }
-2021.01.09, 12:39:40 DEBUG src/database.js line:156 {
+2021.01.11, 17:43:38 DEBUG src/database.js line:158 {
   docs: [],
   bookmark: 'nil',
   warning: 'No matching index found, create an index to optimize query time.'
 }
-2021.01.09, 12:39:40 DEBUG src/database.js line:145 partitionName: activitys, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"8edee2d4-3848-4a07-a55b-8f57415b3b2a","type":"add","partitionName":"places","datetime":"2021-01-09T12:39:40.116Z","uuid":"94885c3c-7b8c-4b24-8235-38deb30efe98"}
-2021.01.09, 12:39:40 DEBUG src/database.js line:151 {
-  id: '8edee2d4-3848-4a07-a55b-8f57415b3b2a',
+2021.01.11, 17:43:38 DEBUG src/database.js line:147 partitionName: activitys, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"cb55a77c-2b95-4cef-ba60-8af47e47b720","type":"add","partitionName":"places","datetime":"2021-01-11T17:43:38.228Z","uuid":"d3dedd48-80eb-435c-9dc6-16a92ef72a84"}
+2021.01.11, 17:43:38 DEBUG src/database.js line:153 {
+  id: 'cb55a77c-2b95-4cef-ba60-8af47e47b720',
   type: 'add',
   partitionName: 'places',
-  datetime: 2021-01-09T12:39:40.116Z,
-  uuid: '94885c3c-7b8c-4b24-8235-38deb30efe98',
-  _id: 'activitys:94885c3c-7b8c-4b24-8235-38deb30efe98'
+  datetime: 2021-01-11T17:43:38.228Z,
+  uuid: 'd3dedd48-80eb-435c-9dc6-16a92ef72a84',
+  _id: 'activitys:d3dedd48-80eb-435c-9dc6-16a92ef72a84'
 }
-2021.01.09, 12:39:40 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"places","payload":{"id":"8edee2d4-3848-4a07-a55b-8f57415b3b2a","place":"Fila","position":[-22.361268344311554,-60.02517700195313],"_id":"places:8edee2d4-3848-4a07-a55b-8f57415b3b2a"}}] to room: Test
-2021.01.09, 12:39:40 DEBUG userdata/userdata.js line:63 clients in room are: ["8uvIFWkXaHKDceC3AAAD"]
-2021.01.09, 12:39:40 DEBUG src/socketHandler.js line:94 User trys to change data
-2021.01.09, 12:39:40 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
-2021.01.09, 12:39:40 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:2656d627-38f9-4f8e-a700-090e1f9e3164","_rev":"1-69d6b4f86539cd2ab16cee28c01ec628","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB","email":"test@gmail.com","id":"2656d627-38f9-4f8e-a700-090e1f9e3164"}
-2021.01.09, 12:39:40 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"places","payload":{"id":"a136151f-5563-4783-a7d5-61ab33f66c50","place":"Loma","position":[-22.361268344311554,-60.02517700195313]}}] and want to insert
-2021.01.09, 12:39:40 DEBUG userdata/userdata.js line:15 {
-  _id: 'users:2656d627-38f9-4f8e-a700-090e1f9e3164',
-  _rev: '1-69d6b4f86539cd2ab16cee28c01ec628',
+2021.01.11, 17:43:38 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"places","payload":{"id":"cb55a77c-2b95-4cef-ba60-8af47e47b720","place":"Fila","position":[-22.361268344311554,-60.02517700195313],"_id":"places:cb55a77c-2b95-4cef-ba60-8af47e47b720"}}] to room: Test
+2021.01.11, 17:43:38 DEBUG userdata/userdata.js line:63 clients in room are: ["UTuLGclAzbfZgiq7AAAD"]
+2021.01.11, 17:43:38 DEBUG src/socketHandler.js line:94 User trys to change data
+2021.01.11, 17:43:38 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
+2021.01.11, 17:43:38 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:69ea7d69-5485-4007-b810-5f359b47f664","_rev":"1-92f37f0916007615447425ce06603b96","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX","email":"test@gmail.com","id":"69ea7d69-5485-4007-b810-5f359b47f664"}
+2021.01.11, 17:43:38 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"places","payload":{"id":"14aec64b-4162-4016-8e0e-e543ed863f79","place":"Loma","position":[-22.361268344311554,-60.02517700195313]}}] and want to insert
+2021.01.11, 17:43:38 DEBUG userdata/userdata.js line:15 {
+  _id: 'users:69ea7d69-5485-4007-b810-5f359b47f664',
+  _rev: '1-92f37f0916007615447425ce06603b96',
   username: 'Test',
-  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB',
+  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX',
   email: 'test@gmail.com',
-  id: '2656d627-38f9-4f8e-a700-090e1f9e3164'
+  id: '69ea7d69-5485-4007-b810-5f359b47f664'
 }
-2021.01.09, 12:39:40 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"places","payload":{"id":"a136151f-5563-4783-a7d5-61ab33f66c50","place":"Loma","position":[-22.361268344311554,-60.02517700195313]}} for Test
-2021.01.09, 12:39:40 DEBUG src/database.js line:145 partitionName: places, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"a136151f-5563-4783-a7d5-61ab33f66c50","place":"Loma","position":[-22.361268344311554,-60.02517700195313]}
-2021.01.09, 12:39:40 DEBUG src/database.js line:151 {
-  id: 'a136151f-5563-4783-a7d5-61ab33f66c50',
+2021.01.11, 17:43:38 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"places","payload":{"id":"14aec64b-4162-4016-8e0e-e543ed863f79","place":"Loma","position":[-22.361268344311554,-60.02517700195313]}} for Test
+2021.01.11, 17:43:38 DEBUG src/database.js line:147 partitionName: places, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"14aec64b-4162-4016-8e0e-e543ed863f79","place":"Loma","position":[-22.361268344311554,-60.02517700195313]}
+2021.01.11, 17:43:38 DEBUG src/database.js line:153 {
+  id: '14aec64b-4162-4016-8e0e-e543ed863f79',
   place: 'Loma',
   position: [ -22.361268344311554, -60.02517700195313 ],
-  _id: 'places:a136151f-5563-4783-a7d5-61ab33f66c50'
+  _id: 'places:14aec64b-4162-4016-8e0e-e543ed863f79'
 }
-2021.01.09, 12:39:40 DEBUG src/database.js line:156 {
+2021.01.11, 17:43:38 DEBUG src/database.js line:158 {
   docs: [],
   bookmark: 'nil',
   warning: 'No matching index found, create an index to optimize query time.'
 }
-2021.01.09, 12:39:40 DEBUG src/database.js line:145 partitionName: activitys, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"a136151f-5563-4783-a7d5-61ab33f66c50","type":"add","partitionName":"places","datetime":"2021-01-09T12:39:40.617Z","uuid":"e20f9e4b-5f9e-45cc-a2ed-fefbf80b0e0e"}
-2021.01.09, 12:39:40 DEBUG src/database.js line:151 {
-  id: 'a136151f-5563-4783-a7d5-61ab33f66c50',
+2021.01.11, 17:43:38 DEBUG src/database.js line:147 partitionName: activitys, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"14aec64b-4162-4016-8e0e-e543ed863f79","type":"add","partitionName":"places","datetime":"2021-01-11T17:43:38.741Z","uuid":"8cbf1244-18d6-4cbc-ab73-2323fbd9baab"}
+2021.01.11, 17:43:38 DEBUG src/database.js line:153 {
+  id: '14aec64b-4162-4016-8e0e-e543ed863f79',
   type: 'add',
   partitionName: 'places',
-  datetime: 2021-01-09T12:39:40.617Z,
-  uuid: 'e20f9e4b-5f9e-45cc-a2ed-fefbf80b0e0e',
-  _id: 'activitys:e20f9e4b-5f9e-45cc-a2ed-fefbf80b0e0e'
+  datetime: 2021-01-11T17:43:38.741Z,
+  uuid: '8cbf1244-18d6-4cbc-ab73-2323fbd9baab',
+  _id: 'activitys:8cbf1244-18d6-4cbc-ab73-2323fbd9baab'
 }
-2021.01.09, 12:39:40 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"places","payload":{"id":"a136151f-5563-4783-a7d5-61ab33f66c50","place":"Loma","position":[-22.361268344311554,-60.02517700195313],"_id":"places:a136151f-5563-4783-a7d5-61ab33f66c50"}}] to room: Test
-2021.01.09, 12:39:40 DEBUG userdata/userdata.js line:63 clients in room are: ["8uvIFWkXaHKDceC3AAAD"]
-2021.01.09, 12:39:42 DEBUG src/socketHandler.js line:94 User trys to change data
-2021.01.09, 12:39:42 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
-2021.01.09, 12:39:42 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:2656d627-38f9-4f8e-a700-090e1f9e3164","_rev":"1-69d6b4f86539cd2ab16cee28c01ec628","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB","email":"test@gmail.com","id":"2656d627-38f9-4f8e-a700-090e1f9e3164"}
-2021.01.09, 12:39:42 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"rain","payload":{"id":"be33473a-e1b8-4b1e-80f3-1f0936ec185a","date":"2021-01-09T00:00:00.000Z","placeid":"8edee2d4-3848-4a07-a55b-8f57415b3b2a","mm":400}}] and want to insert
-2021.01.09, 12:39:42 DEBUG userdata/userdata.js line:15 {
-  _id: 'users:2656d627-38f9-4f8e-a700-090e1f9e3164',
-  _rev: '1-69d6b4f86539cd2ab16cee28c01ec628',
+2021.01.11, 17:43:38 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"places","payload":{"id":"14aec64b-4162-4016-8e0e-e543ed863f79","place":"Loma","position":[-22.361268344311554,-60.02517700195313],"_id":"places:14aec64b-4162-4016-8e0e-e543ed863f79"}}] to room: Test
+2021.01.11, 17:43:38 DEBUG userdata/userdata.js line:63 clients in room are: ["UTuLGclAzbfZgiq7AAAD"]
+2021.01.11, 17:43:40 DEBUG src/socketHandler.js line:94 User trys to change data
+2021.01.11, 17:43:40 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
+2021.01.11, 17:43:40 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:69ea7d69-5485-4007-b810-5f359b47f664","_rev":"1-92f37f0916007615447425ce06603b96","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX","email":"test@gmail.com","id":"69ea7d69-5485-4007-b810-5f359b47f664"}
+2021.01.11, 17:43:40 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"rain","payload":{"id":"edf5bee7-e207-4cd2-bd9e-83aece2ea033","date":"2021-01-11T00:00:00.000Z","placeid":"cb55a77c-2b95-4cef-ba60-8af47e47b720","mm":400}}] and want to insert
+2021.01.11, 17:43:40 DEBUG userdata/userdata.js line:15 {
+  _id: 'users:69ea7d69-5485-4007-b810-5f359b47f664',
+  _rev: '1-92f37f0916007615447425ce06603b96',
   username: 'Test',
-  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB',
+  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX',
   email: 'test@gmail.com',
-  id: '2656d627-38f9-4f8e-a700-090e1f9e3164'
+  id: '69ea7d69-5485-4007-b810-5f359b47f664'
 }
-2021.01.09, 12:39:42 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"rain","payload":{"id":"be33473a-e1b8-4b1e-80f3-1f0936ec185a","date":"2021-01-09T00:00:00.000Z","placeid":"8edee2d4-3848-4a07-a55b-8f57415b3b2a","mm":400}} for Test
-2021.01.09, 12:39:42 DEBUG src/database.js line:145 partitionName: rain, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"be33473a-e1b8-4b1e-80f3-1f0936ec185a","date":"2021-01-09T00:00:00.000Z","placeid":"8edee2d4-3848-4a07-a55b-8f57415b3b2a","mm":400}
-2021.01.09, 12:39:42 DEBUG src/database.js line:151 {
-  id: 'be33473a-e1b8-4b1e-80f3-1f0936ec185a',
-  date: 2021-01-09T00:00:00.000Z,
-  placeid: '8edee2d4-3848-4a07-a55b-8f57415b3b2a',
+2021.01.11, 17:43:40 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"rain","payload":{"id":"edf5bee7-e207-4cd2-bd9e-83aece2ea033","date":"2021-01-11T00:00:00.000Z","placeid":"cb55a77c-2b95-4cef-ba60-8af47e47b720","mm":400}} for Test
+2021.01.11, 17:43:40 DEBUG src/database.js line:147 partitionName: rain, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"edf5bee7-e207-4cd2-bd9e-83aece2ea033","date":"2021-01-11T00:00:00.000Z","placeid":"cb55a77c-2b95-4cef-ba60-8af47e47b720","mm":400}
+2021.01.11, 17:43:40 DEBUG src/database.js line:153 {
+  id: 'edf5bee7-e207-4cd2-bd9e-83aece2ea033',
+  date: 2021-01-11T00:00:00.000Z,
+  placeid: 'cb55a77c-2b95-4cef-ba60-8af47e47b720',
   mm: 400,
-  _id: 'rain:be33473a-e1b8-4b1e-80f3-1f0936ec185a'
+  _id: 'rain:edf5bee7-e207-4cd2-bd9e-83aece2ea033'
 }
-2021.01.09, 12:39:42 DEBUG src/database.js line:156 {
+2021.01.11, 17:43:40 DEBUG src/database.js line:158 {
   docs: [],
   bookmark: 'nil',
   warning: 'No matching index found, create an index to optimize query time.'
 }
-2021.01.09, 12:39:42 DEBUG src/database.js line:145 partitionName: activitys, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"be33473a-e1b8-4b1e-80f3-1f0936ec185a","type":"add","partitionName":"rain","datetime":"2021-01-09T12:39:42.352Z","uuid":"cabf223f-5303-4fd8-af3f-e4ad425e8f38"}
-2021.01.09, 12:39:42 DEBUG src/database.js line:151 {
-  id: 'be33473a-e1b8-4b1e-80f3-1f0936ec185a',
+2021.01.11, 17:43:40 DEBUG src/database.js line:147 partitionName: activitys, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"edf5bee7-e207-4cd2-bd9e-83aece2ea033","type":"add","partitionName":"rain","datetime":"2021-01-11T17:43:40.381Z","uuid":"0c887456-d70b-495d-b53c-8828516ffd5e"}
+2021.01.11, 17:43:40 DEBUG src/database.js line:153 {
+  id: 'edf5bee7-e207-4cd2-bd9e-83aece2ea033',
   type: 'add',
   partitionName: 'rain',
-  datetime: 2021-01-09T12:39:42.352Z,
-  uuid: 'cabf223f-5303-4fd8-af3f-e4ad425e8f38',
-  _id: 'activitys:cabf223f-5303-4fd8-af3f-e4ad425e8f38'
+  datetime: 2021-01-11T17:43:40.381Z,
+  uuid: '0c887456-d70b-495d-b53c-8828516ffd5e',
+  _id: 'activitys:0c887456-d70b-495d-b53c-8828516ffd5e'
 }
-2021.01.09, 12:39:42 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"rain","payload":{"id":"be33473a-e1b8-4b1e-80f3-1f0936ec185a","date":"2021-01-09T00:00:00.000Z","placeid":"8edee2d4-3848-4a07-a55b-8f57415b3b2a","mm":400,"_id":"rain:be33473a-e1b8-4b1e-80f3-1f0936ec185a"}}] to room: Test
-2021.01.09, 12:39:42 DEBUG userdata/userdata.js line:63 clients in room are: ["8uvIFWkXaHKDceC3AAAD"]
-2021.01.09, 12:39:43 DEBUG src/socketHandler.js line:94 User trys to change data
-2021.01.09, 12:39:43 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
-2021.01.09, 12:39:43 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:2656d627-38f9-4f8e-a700-090e1f9e3164","_rev":"1-69d6b4f86539cd2ab16cee28c01ec628","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB","email":"test@gmail.com","id":"2656d627-38f9-4f8e-a700-090e1f9e3164"}
-2021.01.09, 12:39:43 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"rain","payload":{"id":"af36a0cc-371b-47fe-8aff-9d1109bfa799","date":"2021-01-09T00:00:00.000Z","placeid":"a136151f-5563-4783-a7d5-61ab33f66c50","mm":1}}] and want to insert
-2021.01.09, 12:39:43 DEBUG userdata/userdata.js line:15 {
-  _id: 'users:2656d627-38f9-4f8e-a700-090e1f9e3164',
-  _rev: '1-69d6b4f86539cd2ab16cee28c01ec628',
+2021.01.11, 17:43:40 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"rain","payload":{"id":"edf5bee7-e207-4cd2-bd9e-83aece2ea033","date":"2021-01-11T00:00:00.000Z","placeid":"cb55a77c-2b95-4cef-ba60-8af47e47b720","mm":400,"_id":"rain:edf5bee7-e207-4cd2-bd9e-83aece2ea033"}}] to room: Test
+2021.01.11, 17:43:40 DEBUG userdata/userdata.js line:63 clients in room are: ["UTuLGclAzbfZgiq7AAAD"]
+2021.01.11, 17:43:41 DEBUG src/socketHandler.js line:94 User trys to change data
+2021.01.11, 17:43:41 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
+2021.01.11, 17:43:41 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:69ea7d69-5485-4007-b810-5f359b47f664","_rev":"1-92f37f0916007615447425ce06603b96","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX","email":"test@gmail.com","id":"69ea7d69-5485-4007-b810-5f359b47f664"}
+2021.01.11, 17:43:41 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"rain","payload":{"id":"f50640e1-9e77-4f09-8bba-6b5886df8e81","date":"2021-01-11T00:00:00.000Z","placeid":"14aec64b-4162-4016-8e0e-e543ed863f79","mm":1}}] and want to insert
+2021.01.11, 17:43:41 DEBUG userdata/userdata.js line:15 {
+  _id: 'users:69ea7d69-5485-4007-b810-5f359b47f664',
+  _rev: '1-92f37f0916007615447425ce06603b96',
   username: 'Test',
-  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB',
+  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX',
   email: 'test@gmail.com',
-  id: '2656d627-38f9-4f8e-a700-090e1f9e3164'
+  id: '69ea7d69-5485-4007-b810-5f359b47f664'
 }
-2021.01.09, 12:39:43 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"rain","payload":{"id":"af36a0cc-371b-47fe-8aff-9d1109bfa799","date":"2021-01-09T00:00:00.000Z","placeid":"a136151f-5563-4783-a7d5-61ab33f66c50","mm":1}} for Test
-2021.01.09, 12:39:43 DEBUG src/database.js line:145 partitionName: rain, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"af36a0cc-371b-47fe-8aff-9d1109bfa799","date":"2021-01-09T00:00:00.000Z","placeid":"a136151f-5563-4783-a7d5-61ab33f66c50","mm":1}
-2021.01.09, 12:39:43 DEBUG src/database.js line:151 {
-  id: 'af36a0cc-371b-47fe-8aff-9d1109bfa799',
-  date: 2021-01-09T00:00:00.000Z,
-  placeid: 'a136151f-5563-4783-a7d5-61ab33f66c50',
+2021.01.11, 17:43:41 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"rain","payload":{"id":"f50640e1-9e77-4f09-8bba-6b5886df8e81","date":"2021-01-11T00:00:00.000Z","placeid":"14aec64b-4162-4016-8e0e-e543ed863f79","mm":1}} for Test
+2021.01.11, 17:43:41 DEBUG src/database.js line:147 partitionName: rain, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"f50640e1-9e77-4f09-8bba-6b5886df8e81","date":"2021-01-11T00:00:00.000Z","placeid":"14aec64b-4162-4016-8e0e-e543ed863f79","mm":1}
+2021.01.11, 17:43:41 DEBUG src/database.js line:153 {
+  id: 'f50640e1-9e77-4f09-8bba-6b5886df8e81',
+  date: 2021-01-11T00:00:00.000Z,
+  placeid: '14aec64b-4162-4016-8e0e-e543ed863f79',
   mm: 1,
-  _id: 'rain:af36a0cc-371b-47fe-8aff-9d1109bfa799'
+  _id: 'rain:f50640e1-9e77-4f09-8bba-6b5886df8e81'
 }
-2021.01.09, 12:39:43 DEBUG src/database.js line:156 {
+2021.01.11, 17:43:41 DEBUG src/database.js line:158 {
   docs: [],
   bookmark: 'nil',
   warning: 'No matching index found, create an index to optimize query time.'
 }
-2021.01.09, 12:39:43 DEBUG src/database.js line:145 partitionName: activitys, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"af36a0cc-371b-47fe-8aff-9d1109bfa799","type":"add","partitionName":"rain","datetime":"2021-01-09T12:39:43.058Z","uuid":"845ceb7e-d247-466c-8f9f-6be925d09bae"}
-2021.01.09, 12:39:43 DEBUG src/database.js line:151 {
-  id: 'af36a0cc-371b-47fe-8aff-9d1109bfa799',
+2021.01.11, 17:43:41 DEBUG src/database.js line:147 partitionName: activitys, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"f50640e1-9e77-4f09-8bba-6b5886df8e81","type":"add","partitionName":"rain","datetime":"2021-01-11T17:43:41.104Z","uuid":"c782f58d-4aae-4be3-a2f4-d2a1dcebe88c"}
+2021.01.11, 17:43:41 DEBUG src/database.js line:153 {
+  id: 'f50640e1-9e77-4f09-8bba-6b5886df8e81',
   type: 'add',
   partitionName: 'rain',
-  datetime: 2021-01-09T12:39:43.058Z,
-  uuid: '845ceb7e-d247-466c-8f9f-6be925d09bae',
-  _id: 'activitys:845ceb7e-d247-466c-8f9f-6be925d09bae'
+  datetime: 2021-01-11T17:43:41.104Z,
+  uuid: 'c782f58d-4aae-4be3-a2f4-d2a1dcebe88c',
+  _id: 'activitys:c782f58d-4aae-4be3-a2f4-d2a1dcebe88c'
 }
-2021.01.09, 12:39:43 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"rain","payload":{"id":"af36a0cc-371b-47fe-8aff-9d1109bfa799","date":"2021-01-09T00:00:00.000Z","placeid":"a136151f-5563-4783-a7d5-61ab33f66c50","mm":1,"_id":"rain:af36a0cc-371b-47fe-8aff-9d1109bfa799"}}] to room: Test
-2021.01.09, 12:39:43 DEBUG userdata/userdata.js line:63 clients in room are: ["8uvIFWkXaHKDceC3AAAD"]
-2021.01.09, 12:39:43 DEBUG src/socketHandler.js line:42 Session {
+2021.01.11, 17:43:41 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"rain","payload":{"id":"f50640e1-9e77-4f09-8bba-6b5886df8e81","date":"2021-01-11T00:00:00.000Z","placeid":"14aec64b-4162-4016-8e0e-e543ed863f79","mm":1,"_id":"rain:f50640e1-9e77-4f09-8bba-6b5886df8e81"}}] to room: Test
+2021.01.11, 17:43:41 DEBUG userdata/userdata.js line:63 clients in room are: ["UTuLGclAzbfZgiq7AAAD"]
+2021.01.11, 17:43:41 DEBUG src/socketHandler.js line:42 Session {
   cookie: {
     path: '/',
-    _expires: 2023-10-06T12:39:34.027Z,
+    _expires: 2023-10-08T17:43:31.859Z,
     originalMaxAge: 86400000000,
     httpOnly: true
   },
-  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB'
+  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX'
 }
-2021.01.09, 12:39:43 DEBUG src/socketHandler.js line:46 live map receives date: Sat Jan 09 2021 00:00:00 GMT+0000 (Coordinated Universal Time)
-2021.01.09, 12:39:43 DEBUG src/database.js line:219 2021-01-09T00:00:00.000Z
-2021.01.09, 12:39:43 DEBUG src/socketHandler.js line:60 getting rain days [ { date: '2021-01-09T00:00:00.000Z' } ]
-2021.01.09, 12:39:43 DEBUG src/database.js line:224 {"total_rows":2,"offset":0,"rows":[{"id":"rain:af36a0cc-371b-47fe-8aff-9d1109bfa799","key":"2021-01-09T00:00:00.000Z","value":{"date":"2021-01-09T00:00:00.000Z","mm":1,"_id":"places:a136151f-5563-4783-a7d5-61ab33f66c50"},"doc":{"_id":"places:a136151f-5563-4783-a7d5-61ab33f66c50","_rev":"1-5e16f439f52df2597d552dd0e5e8732f","id":"a136151f-5563-4783-a7d5-61ab33f66c50","place":"Loma","position":[-22.361268344311554,-60.02517700195313]}},{"id":"rain:be33473a-e1b8-4b1e-80f3-1f0936ec185a","key":"2021-01-09T00:00:00.000Z","value":{"date":"2021-01-09T00:00:00.000Z","mm":400,"_id":"places:8edee2d4-3848-4a07-a55b-8f57415b3b2a"},"doc":{"_id":"places:8edee2d4-3848-4a07-a55b-8f57415b3b2a","_rev":"1-c363c0cd0b9f36b91d69224037461d7f","id":"8edee2d4-3848-4a07-a55b-8f57415b3b2a","place":"Fila","position":[-22.361268344311554,-60.02517700195313]}}]}
-2021.01.09, 12:39:43 DEBUG src/database.js line:233 [
+2021.01.11, 17:43:41 DEBUG src/socketHandler.js line:46 live map receives date: Mon Jan 11 2021 00:00:00 GMT+0000 (Coordinated Universal Time)
+2021.01.11, 17:43:41 DEBUG src/database.js line:221 2021-01-11T00:00:00.000Z
+2021.01.11, 17:43:41 DEBUG src/socketHandler.js line:60 getting rain days [ { date: '2021-01-11T00:00:00.000Z' } ]
+2021.01.11, 17:43:41 DEBUG src/database.js line:226 {"total_rows":2,"offset":0,"rows":[{"id":"rain:edf5bee7-e207-4cd2-bd9e-83aece2ea033","key":"2021-01-11T00:00:00.000Z","value":{"date":"2021-01-11T00:00:00.000Z","mm":400,"_id":"places:cb55a77c-2b95-4cef-ba60-8af47e47b720"},"doc":{"_id":"places:cb55a77c-2b95-4cef-ba60-8af47e47b720","_rev":"1-cfdcf6adbca2b028c9439bd060850768","id":"cb55a77c-2b95-4cef-ba60-8af47e47b720","place":"Fila","position":[-22.361268344311554,-60.02517700195313]}},{"id":"rain:f50640e1-9e77-4f09-8bba-6b5886df8e81","key":"2021-01-11T00:00:00.000Z","value":{"date":"2021-01-11T00:00:00.000Z","mm":1,"_id":"places:14aec64b-4162-4016-8e0e-e543ed863f79"},"doc":{"_id":"places:14aec64b-4162-4016-8e0e-e543ed863f79","_rev":"1-22338bb21e6d0dc555980e09fff67e4e","id":"14aec64b-4162-4016-8e0e-e543ed863f79","place":"Loma","position":[-22.361268344311554,-60.02517700195313]}}]}
+2021.01.11, 17:43:41 DEBUG src/database.js line:235 [
   {
-    date: '2021-01-09T00:00:00.000Z',
-    mm: 1,
+    date: '2021-01-11T00:00:00.000Z',
+    mm: 400,
     position: [ -22.361268344311554, -60.02517700195313 ]
   },
   {
-    date: '2021-01-09T00:00:00.000Z',
-    mm: 400,
+    date: '2021-01-11T00:00:00.000Z',
+    mm: 1,
     position: [ -22.361268344311554, -60.02517700195313 ]
   }
 ]
-2021.01.09, 12:39:43 DEBUG src/socketHandler.js line:48 Rain obj is: [{"date":"2021-01-09T00:00:00.000Z","mm":1,"position":[-22.361268344311554,-60.02517700195313]},{"date":"2021-01-09T00:00:00.000Z","mm":400,"position":[-22.361268344311554,-60.02517700195313]}]
-2021.01.09, 12:39:43 DEBUG src/socketHandler.js line:94 User trys to change data
-2021.01.09, 12:39:43 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
-2021.01.09, 12:39:43 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:2656d627-38f9-4f8e-a700-090e1f9e3164","_rev":"1-69d6b4f86539cd2ab16cee28c01ec628","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB","email":"test@gmail.com","id":"2656d627-38f9-4f8e-a700-090e1f9e3164"}
-2021.01.09, 12:39:43 INFO src/socketHandler.js line:36 Getting data: [{"type":"remove","partitionName":"rain","payload":{"id":"be33473a-e1b8-4b1e-80f3-1f0936ec185a"}},{"type":"remove","partitionName":"places","payload":{"id":"8edee2d4-3848-4a07-a55b-8f57415b3b2a"}}] and want to insert
-2021.01.09, 12:39:43 DEBUG userdata/userdata.js line:15 {
-  _id: 'users:2656d627-38f9-4f8e-a700-090e1f9e3164',
-  _rev: '1-69d6b4f86539cd2ab16cee28c01ec628',
+2021.01.11, 17:43:41 DEBUG src/socketHandler.js line:48 Rain obj is: [{"date":"2021-01-11T00:00:00.000Z","mm":400,"position":[-22.361268344311554,-60.02517700195313]},{"date":"2021-01-11T00:00:00.000Z","mm":1,"position":[-22.361268344311554,-60.02517700195313]}]
+2021.01.11, 17:43:41 DEBUG src/socketHandler.js line:94 User trys to change data
+2021.01.11, 17:43:41 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
+2021.01.11, 17:43:41 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:69ea7d69-5485-4007-b810-5f359b47f664","_rev":"1-92f37f0916007615447425ce06603b96","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX","email":"test@gmail.com","id":"69ea7d69-5485-4007-b810-5f359b47f664"}
+2021.01.11, 17:43:41 INFO src/socketHandler.js line:36 Getting data: [{"type":"remove","partitionName":"rain","payload":{"id":"edf5bee7-e207-4cd2-bd9e-83aece2ea033"}},{"type":"remove","partitionName":"places","payload":{"id":"cb55a77c-2b95-4cef-ba60-8af47e47b720"}}] and want to insert
+2021.01.11, 17:43:41 DEBUG userdata/userdata.js line:15 {
+  _id: 'users:69ea7d69-5485-4007-b810-5f359b47f664',
+  _rev: '1-92f37f0916007615447425ce06603b96',
   username: 'Test',
-  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB',
+  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX',
   email: 'test@gmail.com',
-  id: '2656d627-38f9-4f8e-a700-090e1f9e3164'
+  id: '69ea7d69-5485-4007-b810-5f359b47f664'
 }
-2021.01.09, 12:39:43 INFO userdata/userdata.js line:43 removing {"type":"remove","partitionName":"rain","payload":{"id":"be33473a-e1b8-4b1e-80f3-1f0936ec185a","date":null}} for Test
-2021.01.09, 12:39:43 DEBUG src/database.js line:172 This document removed: {"ok":true,"id":"rain:be33473a-e1b8-4b1e-80f3-1f0936ec185a","rev":"2-a58e829ce67a544f6586790cacf01e8b"}
-2021.01.09, 12:39:43 DEBUG src/database.js line:145 partitionName: activitys, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"be33473a-e1b8-4b1e-80f3-1f0936ec185a","type":"remove","partitionName":"rain","datetime":"2021-01-09T12:39:43.666Z","uuid":"6af6e349-fa79-4f8c-8dd3-0dec6c31c0fb"}
-2021.01.09, 12:39:43 DEBUG src/database.js line:151 {
-  id: 'be33473a-e1b8-4b1e-80f3-1f0936ec185a',
+2021.01.11, 17:43:41 INFO userdata/userdata.js line:43 removing {"type":"remove","partitionName":"rain","payload":{"id":"edf5bee7-e207-4cd2-bd9e-83aece2ea033","date":null}} for Test
+2021.01.11, 17:43:41 DEBUG src/database.js line:174 This document removed: {"ok":true,"id":"rain:edf5bee7-e207-4cd2-bd9e-83aece2ea033","rev":"2-632e3f6ac2259867cd9b4ee57c4b1f5a"}
+2021.01.11, 17:43:41 DEBUG src/database.js line:147 partitionName: activitys, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"edf5bee7-e207-4cd2-bd9e-83aece2ea033","type":"remove","partitionName":"rain","datetime":"2021-01-11T17:43:41.763Z","uuid":"d5eaaf75-6f4b-4cda-9e72-2e66705c692b"}
+2021.01.11, 17:43:41 DEBUG src/database.js line:153 {
+  id: 'edf5bee7-e207-4cd2-bd9e-83aece2ea033',
   type: 'remove',
   partitionName: 'rain',
-  datetime: 2021-01-09T12:39:43.666Z,
-  uuid: '6af6e349-fa79-4f8c-8dd3-0dec6c31c0fb',
-  _id: 'activitys:6af6e349-fa79-4f8c-8dd3-0dec6c31c0fb'
+  datetime: 2021-01-11T17:43:41.763Z,
+  uuid: 'd5eaaf75-6f4b-4cda-9e72-2e66705c692b',
+  _id: 'activitys:d5eaaf75-6f4b-4cda-9e72-2e66705c692b'
 }
-2021.01.09, 12:39:43 INFO userdata/userdata.js line:43 removing {"type":"remove","partitionName":"places","payload":{"id":"8edee2d4-3848-4a07-a55b-8f57415b3b2a"}} for Test
-2021.01.09, 12:39:43 DEBUG src/database.js line:172 This document removed: {"ok":true,"id":"places:8edee2d4-3848-4a07-a55b-8f57415b3b2a","rev":"2-99b9c5764fdf9a01779d3b3ef137e0c2"}
-2021.01.09, 12:39:43 DEBUG src/database.js line:145 partitionName: activitys, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"8edee2d4-3848-4a07-a55b-8f57415b3b2a","type":"remove","partitionName":"places","datetime":"2021-01-09T12:39:43.693Z","uuid":"a8a9b9f0-b55f-42ba-86b3-a7e51fd883a6"}
-2021.01.09, 12:39:43 DEBUG src/database.js line:151 {
-  id: '8edee2d4-3848-4a07-a55b-8f57415b3b2a',
+2021.01.11, 17:43:41 INFO userdata/userdata.js line:43 removing {"type":"remove","partitionName":"places","payload":{"id":"cb55a77c-2b95-4cef-ba60-8af47e47b720"}} for Test
+2021.01.11, 17:43:41 DEBUG src/database.js line:174 This document removed: {"ok":true,"id":"places:cb55a77c-2b95-4cef-ba60-8af47e47b720","rev":"2-eb303ae6f4b24f57d9537bc39bb1bcca"}
+2021.01.11, 17:43:41 DEBUG src/database.js line:147 partitionName: activitys, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"cb55a77c-2b95-4cef-ba60-8af47e47b720","type":"remove","partitionName":"places","datetime":"2021-01-11T17:43:41.793Z","uuid":"233585ef-cb91-4457-b5ed-af69e00c9482"}
+2021.01.11, 17:43:41 DEBUG src/database.js line:153 {
+  id: 'cb55a77c-2b95-4cef-ba60-8af47e47b720',
   type: 'remove',
   partitionName: 'places',
-  datetime: 2021-01-09T12:39:43.693Z,
-  uuid: 'a8a9b9f0-b55f-42ba-86b3-a7e51fd883a6',
-  _id: 'activitys:a8a9b9f0-b55f-42ba-86b3-a7e51fd883a6'
+  datetime: 2021-01-11T17:43:41.793Z,
+  uuid: '233585ef-cb91-4457-b5ed-af69e00c9482',
+  _id: 'activitys:233585ef-cb91-4457-b5ed-af69e00c9482'
 }
-2021.01.09, 12:39:43 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"remove","partitionName":"rain","payload":{"id":"be33473a-e1b8-4b1e-80f3-1f0936ec185a","date":null}},{"type":"remove","partitionName":"places","payload":{"id":"8edee2d4-3848-4a07-a55b-8f57415b3b2a"}}] to room: Test
-2021.01.09, 12:39:43 DEBUG userdata/userdata.js line:63 clients in room are: ["8uvIFWkXaHKDceC3AAAD"]
-2021.01.09, 12:39:43 DEBUG src/socketHandler.js line:94 User trys to change data
-2021.01.09, 12:39:43 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
-2021.01.09, 12:39:43 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:2656d627-38f9-4f8e-a700-090e1f9e3164","_rev":"1-69d6b4f86539cd2ab16cee28c01ec628","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB","email":"test@gmail.com","id":"2656d627-38f9-4f8e-a700-090e1f9e3164"}
-2021.01.09, 12:39:43 INFO src/socketHandler.js line:36 Getting data: [{"type":"remove","partitionName":"rain","payload":{"id":"af36a0cc-371b-47fe-8aff-9d1109bfa799"}},{"type":"remove","partitionName":"places","payload":{"id":"a136151f-5563-4783-a7d5-61ab33f66c50"}}] and want to insert
-2021.01.09, 12:39:43 DEBUG userdata/userdata.js line:15 {
-  _id: 'users:2656d627-38f9-4f8e-a700-090e1f9e3164',
-  _rev: '1-69d6b4f86539cd2ab16cee28c01ec628',
+2021.01.11, 17:43:41 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"remove","partitionName":"rain","payload":{"id":"edf5bee7-e207-4cd2-bd9e-83aece2ea033","date":null}},{"type":"remove","partitionName":"places","payload":{"id":"cb55a77c-2b95-4cef-ba60-8af47e47b720"}}] to room: Test
+2021.01.11, 17:43:41 DEBUG userdata/userdata.js line:63 clients in room are: ["UTuLGclAzbfZgiq7AAAD"]
+2021.01.11, 17:43:41 DEBUG src/socketHandler.js line:94 User trys to change data
+2021.01.11, 17:43:41 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
+2021.01.11, 17:43:41 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:69ea7d69-5485-4007-b810-5f359b47f664","_rev":"1-92f37f0916007615447425ce06603b96","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX","email":"test@gmail.com","id":"69ea7d69-5485-4007-b810-5f359b47f664"}
+2021.01.11, 17:43:41 INFO src/socketHandler.js line:36 Getting data: [{"type":"remove","partitionName":"rain","payload":{"id":"f50640e1-9e77-4f09-8bba-6b5886df8e81"}},{"type":"remove","partitionName":"places","payload":{"id":"14aec64b-4162-4016-8e0e-e543ed863f79"}}] and want to insert
+2021.01.11, 17:43:41 DEBUG userdata/userdata.js line:15 {
+  _id: 'users:69ea7d69-5485-4007-b810-5f359b47f664',
+  _rev: '1-92f37f0916007615447425ce06603b96',
   username: 'Test',
-  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMTk1OTcyfQ.H0oaSBLa4CTtsWPs9oK0P2nxTGdjcMHbzafEu7Pdc5ZhUyoNBt2NGPqZUC6Q_6PB',
+  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwMzg3MDA5fQ._V3Ij4dw3wocyX6EpFes7UYUNULdSa7zDY99oImFc8-6cNN8L7x6hk0vBQcYeEKX',
   email: 'test@gmail.com',
-  id: '2656d627-38f9-4f8e-a700-090e1f9e3164'
+  id: '69ea7d69-5485-4007-b810-5f359b47f664'
 }
-2021.01.09, 12:39:43 INFO userdata/userdata.js line:43 removing {"type":"remove","partitionName":"rain","payload":{"id":"af36a0cc-371b-47fe-8aff-9d1109bfa799","date":null}} for Test
-2021.01.09, 12:39:43 DEBUG src/database.js line:172 This document removed: {"ok":true,"id":"rain:af36a0cc-371b-47fe-8aff-9d1109bfa799","rev":"2-8f7dd8e328550663d7febb6363f06c6a"}
-2021.01.09, 12:39:43 DEBUG src/database.js line:145 partitionName: activitys, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"af36a0cc-371b-47fe-8aff-9d1109bfa799","type":"remove","partitionName":"rain","datetime":"2021-01-09T12:39:43.877Z","uuid":"3983a5f8-ec66-4b63-84f3-562d366060d4"}
-2021.01.09, 12:39:43 DEBUG src/database.js line:151 {
-  id: 'af36a0cc-371b-47fe-8aff-9d1109bfa799',
+2021.01.11, 17:43:41 INFO userdata/userdata.js line:43 removing {"type":"remove","partitionName":"rain","payload":{"id":"f50640e1-9e77-4f09-8bba-6b5886df8e81","date":null}} for Test
+2021.01.11, 17:43:41 DEBUG src/database.js line:174 This document removed: {"ok":true,"id":"rain:f50640e1-9e77-4f09-8bba-6b5886df8e81","rev":"2-7c36834affc20dc85f349c97df548ef4"}
+2021.01.11, 17:43:41 DEBUG src/database.js line:147 partitionName: activitys, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"f50640e1-9e77-4f09-8bba-6b5886df8e81","type":"remove","partitionName":"rain","datetime":"2021-01-11T17:43:41.998Z","uuid":"52b7e436-6b0b-4d15-8719-5c9a567a4d81"}
+2021.01.11, 17:43:41 DEBUG src/database.js line:153 {
+  id: 'f50640e1-9e77-4f09-8bba-6b5886df8e81',
   type: 'remove',
   partitionName: 'rain',
-  datetime: 2021-01-09T12:39:43.877Z,
-  uuid: '3983a5f8-ec66-4b63-84f3-562d366060d4',
-  _id: 'activitys:3983a5f8-ec66-4b63-84f3-562d366060d4'
+  datetime: 2021-01-11T17:43:41.998Z,
+  uuid: '52b7e436-6b0b-4d15-8719-5c9a567a4d81',
+  _id: 'activitys:52b7e436-6b0b-4d15-8719-5c9a567a4d81'
 }
-2021.01.09, 12:39:43 INFO userdata/userdata.js line:43 removing {"type":"remove","partitionName":"places","payload":{"id":"a136151f-5563-4783-a7d5-61ab33f66c50"}} for Test
-2021.01.09, 12:39:43 DEBUG src/database.js line:172 This document removed: {"ok":true,"id":"places:a136151f-5563-4783-a7d5-61ab33f66c50","rev":"2-7bb4f054b6e72a4a02998d9dfa0484f3"}
-2021.01.09, 12:39:43 DEBUG src/database.js line:145 partitionName: activitys, id: 2656d627-38f9-4f8e-a700-090e1f9e3164, payload: {"id":"a136151f-5563-4783-a7d5-61ab33f66c50","type":"remove","partitionName":"places","datetime":"2021-01-09T12:39:43.894Z","uuid":"00ce20e8-18b7-4bbc-964a-441e57ed7c3d"}
-2021.01.09, 12:39:43 DEBUG src/database.js line:151 {
-  id: 'a136151f-5563-4783-a7d5-61ab33f66c50',
+2021.01.11, 17:43:41 INFO userdata/userdata.js line:43 removing {"type":"remove","partitionName":"places","payload":{"id":"14aec64b-4162-4016-8e0e-e543ed863f79"}} for Test
+2021.01.11, 17:43:42 DEBUG src/database.js line:174 This document removed: {"ok":true,"id":"places:14aec64b-4162-4016-8e0e-e543ed863f79","rev":"2-a54df35d0632fb2cf60feaf69308daaf"}
+2021.01.11, 17:43:42 DEBUG src/database.js line:147 partitionName: activitys, id: 69ea7d69-5485-4007-b810-5f359b47f664, payload: {"id":"14aec64b-4162-4016-8e0e-e543ed863f79","type":"remove","partitionName":"places","datetime":"2021-01-11T17:43:42.022Z","uuid":"4a81b991-dfd2-4784-9075-a2c9641f1f03"}
+2021.01.11, 17:43:42 DEBUG src/database.js line:153 {
+  id: '14aec64b-4162-4016-8e0e-e543ed863f79',
   type: 'remove',
   partitionName: 'places',
-  datetime: 2021-01-09T12:39:43.894Z,
-  uuid: '00ce20e8-18b7-4bbc-964a-441e57ed7c3d',
-  _id: 'activitys:00ce20e8-18b7-4bbc-964a-441e57ed7c3d'
+  datetime: 2021-01-11T17:43:42.022Z,
+  uuid: '4a81b991-dfd2-4784-9075-a2c9641f1f03',
+  _id: 'activitys:4a81b991-dfd2-4784-9075-a2c9641f1f03'
 }
-2021.01.09, 12:39:43 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"remove","partitionName":"rain","payload":{"id":"af36a0cc-371b-47fe-8aff-9d1109bfa799","date":null}},{"type":"remove","partitionName":"places","payload":{"id":"a136151f-5563-4783-a7d5-61ab33f66c50"}}] to room: Test
-2021.01.09, 12:39:43 DEBUG userdata/userdata.js line:63 clients in room are: ["8uvIFWkXaHKDceC3AAAD"]
-2021.01.09, 12:39:44 DEBUG src/socketHandler.js line:94 User trys to change data
-2021.01.09, 12:39:44 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
+2021.01.11, 17:43:42 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"remove","partitionName":"rain","payload":{"id":"f50640e1-9e77-4f09-8bba-6b5886df8e81","date":null}},{"type":"remove","partitionName":"places","payload":{"id":"14aec64b-4162-4016-8e0e-e543ed863f79"}}] to room: Test
+2021.01.11, 17:43:42 DEBUG userdata/userdata.js line:63 clients in room are: ["UTuLGclAzbfZgiq7AAAD"]
+2021.01.11, 17:43:42 DEBUG src/socketHandler.js line:94 User trys to change data
+2021.01.11, 17:43:42 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
