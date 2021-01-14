@@ -7,7 +7,7 @@
 [33m[nodemon] watching path(s): *.*[39m
 [33m[nodemon] watching extensions: js,mjs,json[39m
 [32m[nodemon] starting `node src/index.js`[39m
-2021.01.14, 13:36:19 INFO src/database.js line:17 {
+2021.01.14, 17:28:16 INFO src/database.js line:17 {
   db_name: 'users',
   purge_seq: '0-g1AAAABPeJzLYWBgYMpgTmHgzcvPy09JdcjLz8gvLskBCeexAEmGBiD1HwiyEhlwqEtkSKqHKMgCAIT2GV4',
   update_seq: '0-g1AAAABPeJzLYWBgYMpgTmHgzcvPy09JdcjLz8gvLskBCeexAEmGBiD1HwiyEhlwqEtkSKqHKMgCAIT2GV4',
@@ -20,101 +20,100 @@
   cluster: { q: 2, n: 1, w: 1, r: 1 },
   instance_start_time: '0'
 }
-2021.01.14, 13:36:57 INFO src/socketHandler.js line:28 trying to login or create account
-2021.01.14, 13:36:57 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
-2021.01.14, 13:36:57 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-11T13:36:57.400Z","httpOnly":true,"path":"/"}}
-2021.01.14, 13:36:57 INFO login/login.js line:209 user has not cookie set
-2021.01.14, 13:37:02 INFO src/socketHandler.js line:28 trying to login or create account
-2021.01.14, 13:37:02 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
-2021.01.14, 13:37:02 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-11T13:37:02.431Z","httpOnly":true,"path":"/"}}
-2021.01.14, 13:37:02 INFO login/login.js line:209 user has not cookie set
-2021.01.14, 13:37:03 INFO src/socketHandler.js line:28 trying to login or create account
-2021.01.14, 13:37:03 DEBUG login/login.js line:20 Getting new data: {"status":"create_account","lang":"en","cred":{"id":"415413f2-8332-4120-89ac-676bd4d39437","username":"Test","password":"12345678","email":"test@gmail.com"}}
-2021.01.14, 13:37:03 DEBUG login/login.js line:181 User is: undefined
-2021.01.14, 13:37:03 DEBUG login/login.js line:230 eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwNjMxNDIzfQ.gD1ouAOyjPkaoWQThOje0JAUzEIOG32HVtr0tG1H7Rv9Yk6fKV9cAnzjGTmZJE_v
-2021.01.14, 13:37:03 DEBUG src/database.js line:74 create User: {"username":"Test","password":"12345678","email":"test@gmail.com","id":"415413f2-8332-4120-89ac-676bd4d39437"}
-2021.01.14, 13:37:03 DEBUG src/database.js line:97 creating views for user
-2021.01.14, 13:37:03 DEBUG login/login.js line:252 User is: {"_id":"users:415413f2-8332-4120-89ac-676bd4d39437","_rev":"1-a8403fae8cc8e5bb04868771c7b0c325","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwNjMxNDIzfQ.gD1ouAOyjPkaoWQThOje0JAUzEIOG32HVtr0tG1H7Rv9Yk6fKV9cAnzjGTmZJE_v","email":"test@gmail.com","id":"415413f2-8332-4120-89ac-676bd4d39437"}
-2021.01.14, 13:37:03 DEBUG src/database.js line:33 getting all data with id: 415413f2-8332-4120-89ac-676bd4d39437
-2021.01.14, 13:37:03 ERROR src/database.js line:49 Cannot getallData(), error: TypeError: Converting circular structure to JSON
+2021.01.14, 17:29:05 INFO src/socketHandler.js line:28 trying to login or create account
+2021.01.14, 17:29:05 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
+2021.01.14, 17:29:05 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-11T17:29:04.742Z","httpOnly":true,"path":"/"}}
+2021.01.14, 17:29:05 INFO login/login.js line:209 user has not cookie set
+2021.01.14, 17:29:09 INFO src/socketHandler.js line:28 trying to login or create account
+2021.01.14, 17:29:09 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
+2021.01.14, 17:29:09 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-11T17:29:09.704Z","httpOnly":true,"path":"/"}}
+2021.01.14, 17:29:09 INFO login/login.js line:209 user has not cookie set
+2021.01.14, 17:29:10 INFO src/socketHandler.js line:28 trying to login or create account
+2021.01.14, 17:29:10 DEBUG login/login.js line:20 Getting new data: {"status":"create_account","lang":"en","cred":{"id":"8246a753-a1cc-463a-8d7b-7cbc0ee820f3","username":"Test","password":"12345678","email":"test@gmail.com"}}
+2021.01.14, 17:29:10 DEBUG login/login.js line:181 User is: undefined
+2021.01.14, 17:29:10 DEBUG login/login.js line:230 eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwNjQ1MzUwfQ.P80iGAJyibbuGhY6HgL3HTE2xeGPgXGKF-SQgGORgXDbkNLO9BA_-_gHRzd9COOA
+2021.01.14, 17:29:10 DEBUG src/database.js line:74 create User: {"username":"Test","password":"12345678","email":"test@gmail.com","id":"8246a753-a1cc-463a-8d7b-7cbc0ee820f3"}
+2021.01.14, 17:29:10 DEBUG src/database.js line:97 creating views for user
+2021.01.14, 17:29:11 DEBUG login/login.js line:252 User is: {"_id":"users:8246a753-a1cc-463a-8d7b-7cbc0ee820f3","_rev":"1-7fae311710737403c92d0bf86dfdf099","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwNjQ1MzUwfQ.P80iGAJyibbuGhY6HgL3HTE2xeGPgXGKF-SQgGORgXDbkNLO9BA_-_gHRzd9COOA","email":"test@gmail.com","id":"8246a753-a1cc-463a-8d7b-7cbc0ee820f3"}
+2021.01.14, 17:29:11 DEBUG src/database.js line:33 getting all data with id: 8246a753-a1cc-463a-8d7b-7cbc0ee820f3
+2021.01.14, 17:29:11 ERROR src/database.js line:49 Cannot getallData(), error: TypeError: Converting circular structure to JSON
     --> starting at object with constructor 'Socket'
     |     property 'parser' -> object with constructor 'HTTPParser'
     --- property 'socket' closes the circle
-2021.01.14, 13:37:03 DEBUG src/database.js line:33 getting all data with id: 415413f2-8332-4120-89ac-676bd4d39437
-2021.01.14, 13:37:03 ERROR src/database.js line:49 Cannot getallData(), error: TypeError: Converting circular structure to JSON
+2021.01.14, 17:29:11 DEBUG src/database.js line:33 getting all data with id: 8246a753-a1cc-463a-8d7b-7cbc0ee820f3
+2021.01.14, 17:29:11 ERROR src/database.js line:49 Cannot getallData(), error: TypeError: Converting circular structure to JSON
     --> starting at object with constructor 'Socket'
     |     property 'parser' -> object with constructor 'HTTPParser'
     --- property 'socket' closes the circle
-2021.01.14, 13:37:03 DEBUG login/login.js line:279 data: [null,null]
-2021.01.14, 13:37:03 DEBUG src/socketHandler.js line:94 User trys to change data
-2021.01.14, 13:37:03 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
-2021.01.14, 13:37:04 INFO src/socketHandler.js line:28 trying to login or create account
-2021.01.14, 13:37:04 DEBUG login/login.js line:20 Getting new data: {"status":"logout"}
-2021.01.14, 13:37:04 INFO login/login.js line:175 logget out cookie is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-11T13:37:02.431Z","httpOnly":true,"path":"/"}}
-2021.01.14, 13:37:04 INFO src/socketHandler.js line:28 trying to login or create account
-2021.01.14, 13:37:04 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
-2021.01.14, 13:37:04 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-11T13:37:04.321Z","httpOnly":true,"path":"/"}}
-2021.01.14, 13:37:04 INFO login/login.js line:209 user has not cookie set
-2021.01.14, 13:37:05 INFO src/socketHandler.js line:28 trying to login or create account
-2021.01.14, 13:37:05 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
-2021.01.14, 13:37:05 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-11T13:37:05.232Z","httpOnly":true,"path":"/"}}
-2021.01.14, 13:37:05 INFO login/login.js line:209 user has not cookie set
-2021.01.14, 13:37:05 INFO src/socketHandler.js line:28 trying to login or create account
-2021.01.14, 13:37:05 DEBUG login/login.js line:20 Getting new data: {"status":"login","cred":{"email":"test@gmail.com","password":"12345678"}}
-2021.01.14, 13:37:05 DEBUG login/login.js line:252 User is: {"_id":"users:415413f2-8332-4120-89ac-676bd4d39437","_rev":"1-a8403fae8cc8e5bb04868771c7b0c325","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwNjMxNDIzfQ.gD1ouAOyjPkaoWQThOje0JAUzEIOG32HVtr0tG1H7Rv9Yk6fKV9cAnzjGTmZJE_v","email":"test@gmail.com","id":"415413f2-8332-4120-89ac-676bd4d39437"}
-2021.01.14, 13:37:05 DEBUG src/database.js line:33 getting all data with id: 415413f2-8332-4120-89ac-676bd4d39437
-2021.01.14, 13:37:05 DEBUG src/database.js line:33 getting all data with id: 415413f2-8332-4120-89ac-676bd4d39437
-2021.01.14, 13:37:05 DEBUG src/database.js line:38 {"total_rows":0,"offset":0,"rows":[]}
-2021.01.14, 13:37:05 DEBUG src/database.js line:38 {"total_rows":0,"offset":0,"rows":[]}
-2021.01.14, 13:37:05 DEBUG login/login.js line:279 data: [[],[]]
-2021.01.14, 13:37:06 DEBUG src/socketHandler.js line:60 getting rain days []
-2021.01.14, 13:37:06 DEBUG src/socketHandler.js line:42 Session {
+2021.01.14, 17:29:11 DEBUG login/login.js line:279 data: [null,null]
+2021.01.14, 17:29:11 DEBUG src/socketHandler.js line:94 User trys to change data
+2021.01.14, 17:29:11 DEBUG src/database.js line:137 Could not get user from token: {}
+2021.01.14, 17:29:11 WARN src/socketHandler.js line:98 User with cookiejwt: eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwNjQ1MzUwfQ.P80iGAJyibbuGhY6HgL3HTE2xeGPgXGKF-SQgGORgXDbkNLO9BA_-_gHRzd9COOA has no permission to change data
+2021.01.14, 17:29:11 INFO src/socketHandler.js line:28 trying to login or create account
+2021.01.14, 17:29:11 DEBUG login/login.js line:20 Getting new data: {"status":"logout"}
+2021.01.14, 17:29:11 INFO login/login.js line:175 logget out cookie is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-11T17:29:09.704Z","httpOnly":true,"path":"/"}}
+2021.01.14, 17:29:11 INFO src/socketHandler.js line:28 trying to login or create account
+2021.01.14, 17:29:11 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
+2021.01.14, 17:29:11 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-11T17:29:11.626Z","httpOnly":true,"path":"/"}}
+2021.01.14, 17:29:11 INFO login/login.js line:209 user has not cookie set
+2021.01.14, 17:29:12 INFO src/socketHandler.js line:28 trying to login or create account
+2021.01.14, 17:29:12 DEBUG login/login.js line:20 Getting new data: {"status":"checkAlreadyLoggedIn"}
+2021.01.14, 17:29:12 DEBUG login/login.js line:206 cookie session is: {"cookie":{"originalMaxAge":86400000000,"expires":"2023-10-11T17:29:12.522Z","httpOnly":true,"path":"/"}}
+2021.01.14, 17:29:12 INFO login/login.js line:209 user has not cookie set
+2021.01.14, 17:29:13 INFO src/socketHandler.js line:28 trying to login or create account
+2021.01.14, 17:29:13 DEBUG login/login.js line:20 Getting new data: {"status":"login","cred":{"email":"test@gmail.com","password":"12345678"}}
+2021.01.14, 17:29:13 DEBUG login/login.js line:252 User is: {"_id":"users:8246a753-a1cc-463a-8d7b-7cbc0ee820f3","_rev":"1-7fae311710737403c92d0bf86dfdf099","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwNjQ1MzUwfQ.P80iGAJyibbuGhY6HgL3HTE2xeGPgXGKF-SQgGORgXDbkNLO9BA_-_gHRzd9COOA","email":"test@gmail.com","id":"8246a753-a1cc-463a-8d7b-7cbc0ee820f3"}
+2021.01.14, 17:29:13 DEBUG src/database.js line:33 getting all data with id: 8246a753-a1cc-463a-8d7b-7cbc0ee820f3
+2021.01.14, 17:29:13 DEBUG src/database.js line:33 getting all data with id: 8246a753-a1cc-463a-8d7b-7cbc0ee820f3
+2021.01.14, 17:29:13 DEBUG src/database.js line:38 {"total_rows":0,"offset":0,"rows":[]}
+2021.01.14, 17:29:13 DEBUG src/database.js line:38 {"total_rows":0,"offset":0,"rows":[]}
+2021.01.14, 17:29:13 DEBUG login/login.js line:279 data: [[],[]]
+2021.01.14, 17:29:13 DEBUG src/socketHandler.js line:42 Session {
   cookie: {
     path: '/',
-    _expires: 2023-10-11T13:37:05.232Z,
+    _expires: 2023-10-11T17:29:12.522Z,
     originalMaxAge: 86400000000,
     httpOnly: true
   },
-  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwNjMxNDIzfQ.gD1ouAOyjPkaoWQThOje0JAUzEIOG32HVtr0tG1H7Rv9Yk6fKV9cAnzjGTmZJE_v'
+  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwNjQ1MzUwfQ.P80iGAJyibbuGhY6HgL3HTE2xeGPgXGKF-SQgGORgXDbkNLO9BA_-_gHRzd9COOA'
 }
-2021.01.14, 13:37:06 DEBUG src/socketHandler.js line:46 live map receives date: Thu Jan 14 2021 00:00:00 GMT+0000 (Coordinated Universal Time)
-2021.01.14, 13:37:06 DEBUG src/database.js line:221 2021-01-14T00:00:00.000Z
-2021.01.14, 13:37:06 DEBUG src/database.js line:226 {"total_rows":0,"offset":0,"rows":[]}
-2021.01.14, 13:37:06 DEBUG src/database.js line:235 []
-2021.01.14, 13:37:06 DEBUG src/socketHandler.js line:48 Rain obj is: []
-2021.01.14, 13:37:10 DEBUG src/socketHandler.js line:94 User trys to change data
-2021.01.14, 13:37:10 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
-2021.01.14, 13:37:10 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:415413f2-8332-4120-89ac-676bd4d39437","_rev":"1-a8403fae8cc8e5bb04868771c7b0c325","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwNjMxNDIzfQ.gD1ouAOyjPkaoWQThOje0JAUzEIOG32HVtr0tG1H7Rv9Yk6fKV9cAnzjGTmZJE_v","email":"test@gmail.com","id":"415413f2-8332-4120-89ac-676bd4d39437"}
-2021.01.14, 13:37:10 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"places","payload":{"id":"011aa07e-2e59-4884-8b5f-0c82794b7b8f","place":"a","position":[-22.361268344311554,-60.02517700195313]}}] and want to insert
-2021.01.14, 13:37:10 DEBUG userdata/userdata.js line:15 {
-  _id: 'users:415413f2-8332-4120-89ac-676bd4d39437',
-  _rev: '1-a8403fae8cc8e5bb04868771c7b0c325',
+2021.01.14, 17:29:13 DEBUG src/socketHandler.js line:46 live map receives date: Thu Jan 14 2021 00:00:00 GMT+0000 (Coordinated Universal Time)
+2021.01.14, 17:29:13 ERROR src/database.js line:238 Could not load data for liveMap: {}
+2021.01.14, 17:29:13 DEBUG src/socketHandler.js line:48 Rain obj is: undefined
+2021.01.14, 17:29:13 DEBUG src/socketHandler.js line:60 getting rain days []
+2021.01.14, 17:29:16 DEBUG src/socketHandler.js line:94 User trys to change data
+2021.01.14, 17:29:16 INFO src/socketHandler.js line:102 User test@gmail.com has permission to change data
+2021.01.14, 17:29:16 DEBUG src/socketHandler.js line:34 user received: {"_id":"users:8246a753-a1cc-463a-8d7b-7cbc0ee820f3","_rev":"1-7fae311710737403c92d0bf86dfdf099","username":"Test","jwt":"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwNjQ1MzUwfQ.P80iGAJyibbuGhY6HgL3HTE2xeGPgXGKF-SQgGORgXDbkNLO9BA_-_gHRzd9COOA","email":"test@gmail.com","id":"8246a753-a1cc-463a-8d7b-7cbc0ee820f3"}
+2021.01.14, 17:29:16 INFO src/socketHandler.js line:36 Getting data: [{"type":"add","partitionName":"places","payload":{"id":"1506d595-b667-40ed-bd49-b813719bf028","place":"a","position":[-22.361268344311554,-60.02517700195313]}}] and want to insert
+2021.01.14, 17:29:16 DEBUG userdata/userdata.js line:15 {
+  _id: 'users:8246a753-a1cc-463a-8d7b-7cbc0ee820f3',
+  _rev: '1-7fae311710737403c92d0bf86dfdf099',
   username: 'Test',
-  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwNjMxNDIzfQ.gD1ouAOyjPkaoWQThOje0JAUzEIOG32HVtr0tG1H7Rv9Yk6fKV9cAnzjGTmZJE_v',
+  jwt: 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNjEwNjQ1MzUwfQ.P80iGAJyibbuGhY6HgL3HTE2xeGPgXGKF-SQgGORgXDbkNLO9BA_-_gHRzd9COOA',
   email: 'test@gmail.com',
-  id: '415413f2-8332-4120-89ac-676bd4d39437'
+  id: '8246a753-a1cc-463a-8d7b-7cbc0ee820f3'
 }
-2021.01.14, 13:37:10 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"places","payload":{"id":"011aa07e-2e59-4884-8b5f-0c82794b7b8f","place":"a","position":[-22.361268344311554,-60.02517700195313]}} for Test
-2021.01.14, 13:37:10 DEBUG src/database.js line:147 partitionName: places, id: 415413f2-8332-4120-89ac-676bd4d39437, payload: {"id":"011aa07e-2e59-4884-8b5f-0c82794b7b8f","place":"a","position":[-22.361268344311554,-60.02517700195313]}
-2021.01.14, 13:37:10 DEBUG src/database.js line:153 {
-  id: '011aa07e-2e59-4884-8b5f-0c82794b7b8f',
+2021.01.14, 17:29:16 INFO userdata/userdata.js line:35 inserting {"type":"add","partitionName":"places","payload":{"id":"1506d595-b667-40ed-bd49-b813719bf028","place":"a","position":[-22.361268344311554,-60.02517700195313]}} for Test
+2021.01.14, 17:29:16 DEBUG src/database.js line:147 partitionName: places, id: 8246a753-a1cc-463a-8d7b-7cbc0ee820f3, payload: {"id":"1506d595-b667-40ed-bd49-b813719bf028","place":"a","position":[-22.361268344311554,-60.02517700195313]}
+2021.01.14, 17:29:16 DEBUG src/database.js line:153 {
+  id: '1506d595-b667-40ed-bd49-b813719bf028',
   place: 'a',
   position: [ -22.361268344311554, -60.02517700195313 ],
-  _id: 'places:011aa07e-2e59-4884-8b5f-0c82794b7b8f'
+  _id: 'places:1506d595-b667-40ed-bd49-b813719bf028'
 }
-2021.01.14, 13:37:10 DEBUG src/database.js line:158 {
+2021.01.14, 17:29:16 DEBUG src/database.js line:158 {
   docs: [],
   bookmark: 'nil',
   warning: 'No matching index found, create an index to optimize query time.'
 }
-2021.01.14, 13:37:10 DEBUG src/database.js line:147 partitionName: activitys, id: 415413f2-8332-4120-89ac-676bd4d39437, payload: {"id":"011aa07e-2e59-4884-8b5f-0c82794b7b8f","type":"add","partitionName":"places","datetime":"2021-01-14T13:37:10.364Z","uuid":"1dff1806-53b6-41b1-b712-eff999c88e67"}
-2021.01.14, 13:37:10 DEBUG src/database.js line:153 {
-  id: '011aa07e-2e59-4884-8b5f-0c82794b7b8f',
+2021.01.14, 17:29:16 DEBUG src/database.js line:147 partitionName: activitys, id: 8246a753-a1cc-463a-8d7b-7cbc0ee820f3, payload: {"id":"1506d595-b667-40ed-bd49-b813719bf028","type":"add","partitionName":"places","datetime":"2021-01-14T17:29:16.032Z","uuid":"643d81d4-5316-47fa-89d5-7ce4dcc58b71"}
+2021.01.14, 17:29:16 DEBUG src/database.js line:153 {
+  id: '1506d595-b667-40ed-bd49-b813719bf028',
   type: 'add',
   partitionName: 'places',
-  datetime: 2021-01-14T13:37:10.364Z,
-  uuid: '1dff1806-53b6-41b1-b712-eff999c88e67',
-  _id: 'activitys:1dff1806-53b6-41b1-b712-eff999c88e67'
+  datetime: 2021-01-14T17:29:16.032Z,
+  uuid: '643d81d4-5316-47fa-89d5-7ce4dcc58b71',
+  _id: 'activitys:643d81d4-5316-47fa-89d5-7ce4dcc58b71'
 }
-2021.01.14, 13:37:10 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"places","payload":{"id":"011aa07e-2e59-4884-8b5f-0c82794b7b8f","place":"a","position":[-22.361268344311554,-60.02517700195313],"_id":"places:011aa07e-2e59-4884-8b5f-0c82794b7b8f"}}] to room: Test
+2021.01.14, 17:29:16 DEBUG userdata/userdata.js line:60 sync_to_client [{"type":"add","partitionName":"places","payload":{"id":"1506d595-b667-40ed-bd49-b813719bf028","place":"a","position":[-22.361268344311554,-60.02517700195313],"_id":"places:1506d595-b667-40ed-bd49-b813719bf028"}}] to room: Test
 [31m[nodemon] app crashed - waiting for file changes before starting...[39m
