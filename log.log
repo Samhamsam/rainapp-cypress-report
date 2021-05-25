@@ -4,23 +4,11 @@
 
 
 > regenserver@2.2.0 nodemon
-> NODE_ENV=development ; nodemon src/index.js --watch ../frontend/public --watch src/ -e js,css,html
+> NODE_ENV=development ; nodemon src/index.js
 
 [33m[nodemon] 2.0.7[39m
 [33m[nodemon] to restart at any time, enter `rs`[39m
-[33m[nodemon] watching path(s): ../frontend/public/**/* src/**/*[39m
-[33m[nodemon] watching extensions: js,css,html[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
 [32m[nodemon] starting `node src/index.js`[39m
-2021.04.15, 23:15:35 INFO src/database.js line:17 {
-  db_name: 'users',
-  purge_seq: '0-g1AAAABPeJzLYWBgYMpgTmHgzcvPy09JdcjLz8gvLskBCeexAEmGBiD1HwiyEhlwqEtkSKqHKMgCAIT2GV4',
-  update_seq: '0-g1AAAABPeJzLYWBgYMpgTmHgzcvPy09JdcjLz8gvLskBCeexAEmGBiD1HwiyEhlwqEtkSKqHKMgCAIT2GV4',
-  sizes: { file: 16692, external: 0, active: 0 },
-  props: { partitioned: true },
-  doc_del_count: 0,
-  doc_count: 0,
-  disk_format_version: 8,
-  compact_running: false,
-  cluster: { q: 2, n: 1, w: 1, r: 1 },
-  instance_start_time: '0'
-}
+2021.05.25, 15:19:13 DEBUG helpers/database_init.js line:54 creating views for usercollection
