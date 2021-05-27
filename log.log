@@ -1,6 +1,6 @@
 
 > regenserver@2.2.0 dev
-> npm run browser-sync ; npm run nodemon
+> npm run nodemon
 
 
 > regenserver@2.2.0 nodemon
@@ -11,4 +11,4 @@
 [33m[nodemon] watching path(s): *.*[39m
 [33m[nodemon] watching extensions: js,mjs,json[39m
 [32m[nodemon] starting `node src/index.js`[39m
-2021.05.25, 18:49:45 DEBUG helpers/database_init.js line:54 creating views for usercollection
+2021.05.27, 14:32:15 DEBUG helpers/database_init.js line:54 creating views for usercollection
