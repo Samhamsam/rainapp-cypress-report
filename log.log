@@ -11,4 +11,4 @@
 [33m[nodemon] watching path(s): *.*[39m
 [33m[nodemon] watching extensions: js,mjs,json[39m
 [32m[nodemon] starting `node src/index.js`[39m
-2021.05.27, 18:40:20 DEBUG helpers/database_init.js line:54 creating views for usercollection
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
