@@ -1,4 +1,4 @@
 
-> regenserver@2.2.0 dev
-> npm run nodemon src/index.js
+> regenserver@2.2.0 start
+> node src/index.js
 
