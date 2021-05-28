@@ -1,4 +1,4 @@
 
-> regenserver@2.2.0 start
+> regenserver@2.2.0 node
 > node src/index.js
 
